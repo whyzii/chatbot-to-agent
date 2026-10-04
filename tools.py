@@ -74,15 +74,71 @@ def get_recent_published(limit: int = 50) -> list[dict]:
         for item in items[-limit:]
     ]
 
+
+TOOL_SCHEMAS = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_latest_items",
+            "description": "Get recent headlines from the AI news sources, newest first. Each item has source, title, link and published date.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "days": {"type": "integer", "description": "How many days back to look. Default 2."}
+                },
+                "required": [],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_recent_published",
+            "description": "Get the titles and links of the items already on the website, to avoid duplicates.",
+            "parameters": {"type": "object", "properties": {}, "required": []},
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "fetch_article",
+            "description": "Download an article and return its main text.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "url": {"type": "string", "description": "The article link."}
+                },
+                "required": ["url"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "save_item",
+            "description": "Save one finished news item to the website. Use the ITEM FORMAT from your instructions.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "item": {"type": "object", "description": "The finished news item."}
+                },
+                "required": ["item"],
+            },
+        },
+    },
+]
+
+TOOL_FUNCTIONS = {
+    "get_latest_items": get_latest_items,
+    "get_recent_published": get_recent_published,
+    "fetch_article": fetch_article,
+    "save_item": save_item,
+}
+
 if __name__ == "__main__":
     items = get_latest_items(days=7)
     for item in items:
         print(f"{item['published'][:10]}  [{item['source']}]  {item['title']}")
-
-    test_item = {"title": "Test item", "source_url": "https://example.com/test"}
-    print(is_published(test_item["source_url"]))   # False the first time
-    print(save_item(test_item))                    # Saved: Test item
-    print(is_published(test_item["source_url"]))   # True
-    print(save_item(test_item))                    # Already saved.
+        
     print("\n--- First article ---\n")
     print(fetch_article(items[0]["link"])[:1000])
