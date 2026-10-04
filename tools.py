@@ -1,5 +1,8 @@
 from datetime import datetime, timedelta, timezone
+# pyrefly: ignore [missing-import]
 import feedparser
+# pyrefly: ignore [missing-import]
+import trafilatura
 
 FEEDS = {
     "OpenAI": "https://openai.com/news/rss.xml",
@@ -32,6 +35,18 @@ def get_latest_items(days: int = 7, max_items: int = 20) -> list[dict]:
     return items[:max_items]
 
 
+def fetch_article(url: str, max_chars: int = 6000) -> str:
+    """Download a page and return the main article text."""
+    downloaded = trafilatura.fetch_url(url)
+    if not downloaded:
+        return ""
+    text = trafilatura.extract(downloaded) or ""
+    return text[:max_chars]
+
 if __name__ == "__main__":
-    for item in get_latest_items():
+    items = get_latest_items(days=7)
+    for item in items:
         print(f"{item['published'][:10]}  [{item['source']}]  {item['title']}")
+
+    print("\n--- First article ---\n")
+    print(fetch_article(items[0]["link"])[:1000])
