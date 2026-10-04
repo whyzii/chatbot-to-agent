@@ -66,6 +66,13 @@ def save_item(item: dict) -> str:
     PUBLISHED_PATH.write_text(json.dumps(items, indent=2, ensure_ascii=False))
     return f"Saved: {item.get('title')}"
 
+def get_recent_published(limit: int = 50) -> list[dict]:
+    """Return the titles and links of the most recent items on the website."""
+    items = _load_published()
+    return [
+        {"title": item.get("title"), "source_url": item.get("source_url")}
+        for item in items[-limit:]
+    ]
 
 if __name__ == "__main__":
     items = get_latest_items(days=7)
