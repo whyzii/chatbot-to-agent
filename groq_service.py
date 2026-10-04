@@ -8,8 +8,11 @@ class GroqService:
         self.client = Groq(api_key=os.environ["GROQ_API_KEY"])
         self.model = os.environ["GROQ_MODEL"]
 
-    def send(self, history: list[Message]) -> str:
-        messages = [
+    def send(self, history: list[Message], system_prompt: str | None = None) -> str:
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages += [
             {"role": "assistant" if m.role == "model" else "user", "content": m.text}
             for m in history
         ]
