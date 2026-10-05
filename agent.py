@@ -1,6 +1,8 @@
 import json
 import os
 from datetime import date
+from build_site import build
+
 
 # pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
@@ -37,7 +39,9 @@ def run_agent():
         if not message.tool_calls:
             print("\n=== Agent report ===\n")
             print(message.content)
+            build()
             return
+
 
         # Remember what the model asked for
         messages.append({
@@ -70,6 +74,7 @@ def run_agent():
             
 
     print("Stopped: reached the maximum number of steps.")
+    build()
 
 
 if __name__ == "__main__":
