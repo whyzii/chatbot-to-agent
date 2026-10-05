@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-10-03T22:56:48+00:00",
+    "reason": "new research benchmark from a leading AI company",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "status": "official",
+    "summary": "Microsoft and Hugging Face introduced ThinkingBox, a benchmark that runs AI agents through 507 business workflows many times, checking the actual changes an agent makes to a database rather than just the tool calls it reports. The study found that a majority of agents leave incorrect or incomplete backend states even when they appear to have succeeded. This shows that current testing methods miss hidden errors in agent behavior.",
+    "title": "Microsoft and Hugging Face release ThinkingBox benchmark to test AI agent consistency",
+    "why_it_matters": "The benchmark helps developers identify agents that reliably perform real‑world tasks, improving safety and user trust in AI assistants."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-10-02T23:03:16+00:00",
+    "reason": "new policy change from Apple",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+    "status": "official",
+    "summary": "Apple announced it will change macOS privacy settings so that apps must explicitly opt in before they can read Apple Messages. The new rule requires apps to have full‑disk access and a separate Messages connector setting. This limits AI assistants from automatically accessing users’ message histories without permission.",
+    "title": "Apple updates macOS permissions to curb AI agent misuse",
+    "why_it_matters": "It protects users’ private conversations and stops AI agents from reading messages without consent, reducing privacy risks."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-10-02T20:30:27+00:00",
+    "reason": "Amazon announced new community funding plan",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+    "status": "official",
+    "summary": "Amazon announced it will donate more than $1 billion over the next five years to communities near its data centers, and made promises to keep local power bills and water supplies stable. The company also said it would be water positive by 2030 and pledged that data centers would not raise local water usage.",
+    "title": "Amazon pledges $1B+ to local communities to counter data center backlash",
+    "why_it_matters": "It shows how a major tech firm is trying to address public concern over the environmental and economic impact of its data centers, which can influence where new facilities are built."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-10-05T13:39:30+00:00",
+    "reason": "new regulation announced",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+    "status": "official",
+    "summary": "Norway will introduce a law to ban AI glasses in places like parks, beaches, schools, and kindergartens, to protect privacy and prevent unconsented recording.",
+    "title": "Norway proposes temporary ban on AI glasses in public places",
+    "why_it_matters": "It shows governments are stepping in to regulate wearable AI tech that can record people without consent."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-05T10:00:00+00:00",
+    "reason": "new ad format announced",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+    "status": "official",
+    "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+    "title": "OpenAI releases new visual ad format for ChatGPT",
+    "why_it_matters": "Advertisers can now place image ads inside ChatGPT chats, and OpenAI provides tools to measure performance, offering new monetization for the platform."
+  }
+]

@@ -5,6 +5,7 @@ import feedparser
 import trafilatura
 import json
 from pathlib import Path
+import re
 
 
 FEEDS = {
@@ -14,6 +15,11 @@ FEEDS = {
     "Hugging Face": "https://huggingface.co/blog/feed.xml",
     "Ars Technica": "https://arstechnica.com/ai/feed/",
 }
+
+_FEED_SUMMARIES = {}   # link -> short summary from the RSS feed
+
+def _clean_url(url: str) -> str:
+    return url.strip().rstrip("/")
 
 def get_latest_items(days: int = 7, max_items: int = 20) -> list[dict]:
     """Return recent items from all feeds, newest first."""
@@ -28,6 +34,8 @@ def get_latest_items(days: int = 7, max_items: int = 20) -> list[dict]:
             published = datetime(*parsed[:6], tzinfo=timezone.utc)
             if published < cutoff:
                 continue
+            summary = re.sub(r"<[^>]+>", " ", entry.get("summary", "")).strip()
+            _FEED_SUMMARIES[_clean_url(entry.get("link", ""))] = summary[:1000]
             items.append({
                 "source": source,
                 "title": entry.get("title", ""),
@@ -38,13 +46,18 @@ def get_latest_items(days: int = 7, max_items: int = 20) -> list[dict]:
     return items[:max_items]
 
 
-def fetch_article(url: str, max_chars: int = 6000) -> str:
+def fetch_article(url: str, max_chars: int = 3000) -> str:
     """Download a page and return the main article text."""
     downloaded = trafilatura.fetch_url(url)
-    if not downloaded:
-        return ""
-    text = trafilatura.extract(downloaded) or ""
-    return text[:max_chars]
+    text = trafilatura.extract(downloaded) if downloaded else ""
+    if text:
+        return text[:max_chars]
+
+    summary = _FEED_SUMMARIES.get(_clean_url(url), "")
+    if summary:
+        return ("[The full article could not be downloaded. "
+                "Only the short summary from the news feed is available:]\n" + summary)
+    return "[The article could not be downloaded, and no feed summary is available.]"
 
 PUBLISHED_PATH = Path(__file__).parent / "published.json"
 
@@ -139,6 +152,6 @@ if __name__ == "__main__":
     items = get_latest_items(days=7)
     for item in items:
         print(f"{item['published'][:10]}  [{item['source']}]  {item['title']}")
-        
+
     print("\n--- First article ---\n")
     print(fetch_article(items[0]["link"])[:1000])
