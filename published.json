@@ -82,5 +82,17 @@
     "summary": "The article describes a vulnerability in the Model Context Protocol that allows malicious agents to send harmful instructions to other internal agents.",
     "title": "MCP protocol vulnerability lets attackers hijack AI agents",
     "why_it_matters": "It shows that AI agent communication protocols can be exploited, raising security concerns for organizations using AI agents."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-06T16:00:00+00:00",
+    "reason": "new partnership and AI integration",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/atlassian-partnership",
+    "status": "official",
+    "summary": "OpenAI and Atlassian have extended their collaboration so that GPT‑6 frontier models power AI agents across Atlassian’s platform, including Jira and Confluence. The partnership gives Atlassian customers access to models such as GPT‑6 Astra and GPT‑5.6, and uses Atlassian’s Teamwork Graph to give AI a deep understanding of a company’s work. The goal is to make AI agents a natural part of everyday work in tools teams already use.",
+    "title": "OpenAI and Atlassian expand partnership to embed GPT‑6 models into enterprise tools",
+    "why_it_matters": "Teams can get AI help directly inside the software they use for planning and building, which can speed up work and reduce manual effort."
   }
 ]
