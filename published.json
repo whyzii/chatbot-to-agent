@@ -58,5 +58,29 @@
     "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
     "title": "OpenAI releases new visual ad format for ChatGPT",
     "why_it_matters": "Advertisers can now place image ads inside ChatGPT chats, and OpenAI provides tools to measure performance, offering new monetization for the platform."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-10-06T06:44:39+00:00",
+    "reason": "new model release",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+    "status": "official",
+    "summary": "The Technology Innovation Institute (TII) released Falcon-Emirati-7B, a language model tuned to understand and generate Emirati Arabic, a Gulf dialect. It builds on the Falcon-H1-Arabic base and focuses on dialect vocabulary, tone, and cultural context. The model aims to improve communication for native speakers and developers working with Emirati Arabic content.",
+    "title": "Falcon-Emirati model specializes in Emirati Arabic",
+    "why_it_matters": "It lets developers create tools that understand local dialects, improving user experience for Arabic speakers in the UAE."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-10-05T22:26:35+00:00",
+    "reason": "new vulnerability discovered",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+    "status": "reported",
+    "summary": "The article describes a vulnerability in the Model Context Protocol that allows malicious agents to send harmful instructions to other internal agents.",
+    "title": "MCP protocol vulnerability lets attackers hijack AI agents",
+    "why_it_matters": "It shows that AI agent communication protocols can be exploited, raising security concerns for organizations using AI agents."
   }
 ]

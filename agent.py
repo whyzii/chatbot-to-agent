@@ -1,18 +1,18 @@
 import json
 import os
 from datetime import date
-from build_site import build
-
 
 # pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
 # pyrefly: ignore [missing-import]
-from groq import Groq
+from groq import BadRequestError, Groq
 
+from build_site import build
 from prompt import SYSTEM_PROMPT
 from tools import TOOL_FUNCTIONS, TOOL_SCHEMAS
 
-MAX_STEPS = 25   # safety limit, so the agent can't loop forever
+MAX_STEPS = 25        # safety limit, so the agent can't loop forever
+MAX_BAD_CALLS = 3     # how many invalid tool calls we tolerate
 
 
 def run_agent():
@@ -25,56 +25,68 @@ def run_agent():
         {"role": "user", "content": f"Today is {date.today().isoformat()}. "
                                     "Find the important AI news from the last 2 days and save it for the website."},
     ]
+    article_positions = {}   # url -> position of its text in messages
+    bad_calls = 0
 
-    article_positions = {}   # positions of fetch_article results in messages
-    for step in range(1, MAX_STEPS + 1):
-                # Keep only the newest article text; replace older ones with a short note
-        
-        response = client.chat.completions.create(
-            model=model, messages=messages, tools=TOOL_SCHEMAS, tool_choice="auto"
-        )
-        message = response.choices[0].message
-
-        # No tool calls means the model is done: print its final report
-        if not message.tool_calls:
-            print("\n=== Agent report ===\n")
-            print(message.content)
-            build()
-            return
-
-
-        # Remember what the model asked for
-        messages.append({
-            "role": "assistant",
-            "content": message.content or "",
-            "tool_calls": [call.model_dump() for call in message.tool_calls],
-        })
-
-        # Run each tool the model asked for, and send back the result
-        for call in message.tool_calls:
-            name = call.function.name
-            args = json.loads(call.function.arguments or "{}")
-            print(f"[step {step}] {name}({str(args)[:80]})")
+    try:
+        for step in range(1, MAX_STEPS + 1):
             try:
-                result = TOOL_FUNCTIONS[name](**args)
-            except Exception as e:
-                result = f"Error: {e}"
-            if not isinstance(result, str):
-                result = json.dumps(result, ensure_ascii=False)
-            if name == "fetch_article":
-                article_positions[args.get("url")] = len(messages)
-            messages.append({"role": "tool", "tool_call_id": call.id, "content": result})
+                response = client.chat.completions.create(
+                    model=model, messages=messages, tools=TOOL_SCHEMAS,
+                    tool_choice="auto", temperature=0.3,
+                )
+            except BadRequestError:
+                # The model produced a tool call that isn't valid JSON
+                bad_calls += 1
+                print(f"[step {step}] Invalid tool call from the model ({bad_calls}/{MAX_BAD_CALLS}).")
+                if bad_calls >= MAX_BAD_CALLS:
+                    print("Stopped: too many invalid tool calls.")
+                    return
+                messages.append({"role": "user", "content":
+                                 "Your last tool call was not valid. Try again with a valid tool call."})
+                continue
 
-            # Once an item is saved, its article text is no longer needed
-            if name == "save_item":
-                url = args.get("item", {}).get("source_url")
-                position = article_positions.pop(url, None)
-                if position is not None:
-                    messages[position]["content"] = "[Article text removed: this article is already saved.]"
-            
+            message = response.choices[0].message
 
-    print("Stopped: reached the maximum number of steps.")
-    build()
+            # No tool calls means the model is done
+            if not message.tool_calls:
+                print("\n=== Agent report ===\n")
+                print(message.content)
+                return
+
+            # Remember what the model asked for
+            messages.append({
+                "role": "assistant",
+                "content": message.content or "",
+                "tool_calls": [call.model_dump() for call in message.tool_calls],
+            })
+
+            # Run each tool the model asked for, and send back the result
+            for call in message.tool_calls:
+                name = call.function.name
+                args = json.loads(call.function.arguments or "{}")
+                print(f"[step {step}] {name}({str(args)[:80]})")
+                try:
+                    result = TOOL_FUNCTIONS[name](**args)
+                except Exception as e:
+                    result = f"Error: {e}"
+                if not isinstance(result, str):
+                    result = json.dumps(result, ensure_ascii=False)
+                if name == "fetch_article":
+                    article_positions[args.get("url")] = len(messages)
+                messages.append({"role": "tool", "tool_call_id": call.id, "content": result})
+
+                # Once an item is saved, its article text is no longer needed
+                if name == "save_item":
+                    url = args.get("item", {}).get("source_url")
+                    position = article_positions.pop(url, None)
+                    if position is not None:
+                        messages[position]["content"] = "[Article text removed: this article is already saved.]"
+
+        print("Stopped: reached the maximum number of steps.")
+
+    finally:
+        build()   # runs however the agent ends: finished, stopped, or crashed
 
 
 if __name__ == "__main__":
