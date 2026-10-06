@@ -38,6 +38,7 @@ def get_latest_items(days: int = 7, max_items: int = 20) -> list[dict]:
             _FEED_SUMMARIES[_clean_url(entry.get("link", ""))] = summary[:1000]
             items.append({
                 "source": source,
+                "author": entry.get("author", ""),
                 "title": entry.get("title", ""),
                 "link": entry.get("link", ""),
                 "published": published.isoformat(),
