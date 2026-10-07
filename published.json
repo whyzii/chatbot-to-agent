@@ -94,5 +94,17 @@
     "summary": "OpenAI and Atlassian have extended their collaboration so that GPT‑6 frontier models power AI agents across Atlassian’s platform, including Jira and Confluence. The partnership gives Atlassian customers access to models such as GPT‑6 Astra and GPT‑5.6, and uses Atlassian’s Teamwork Graph to give AI a deep understanding of a company’s work. The goal is to make AI agents a natural part of everyday work in tools teams already use.",
     "title": "OpenAI and Atlassian expand partnership to embed GPT‑6 models into enterprise tools",
     "why_it_matters": "Teams can get AI help directly inside the software they use for planning and building, which can speed up work and reduce manual effort."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-10-07T12:45:31+00:00",
+    "reason": "new specialized model and competition results",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+    "status": "official",
+    "summary": "NVIDIA and Hugging Face fine‑tuned Nemotron 3 to achieve gold‑level scores at the International Olympiad in Informatics and the International Mathematical Olympiad. The specialized models used supervised fine‑tuning, reinforcement learning, and a generate‑evaluate‑refine loop. They proved that a single foundation model can be adapted to very different high‑level reasoning tasks.",
+    "title": "Nemotron model wins gold at IOI and IMO competitions",
+    "why_it_matters": "It shows that large language models can be turned into expert systems for complex problem solving, which could help education and research tools."
   }
 ]
