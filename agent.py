@@ -14,6 +14,28 @@ from tools import TOOL_FUNCTIONS, TOOL_SCHEMAS
 MAX_STEPS = 25        # safety limit, so the agent can't loop forever
 MAX_BAD_CALLS = 3     # how many invalid tool calls we tolerate
 
+MAX_CONTEXT_CHARS = 20000   # about 5,000 tokens, safely under Groq's 8,000 limit
+
+
+def context_size(messages: list[dict]) -> int:
+    """Rough size of the conversation, counted in characters."""
+    total = 0
+    for message in messages:
+        total += len(str(message.get("content") or ""))
+        total += len(json.dumps(message.get("tool_calls", "")))
+    return total
+
+
+def trim_context(messages: list[dict], article_positions: dict):
+    """Replace the oldest article texts until the conversation is small enough."""
+    for url, position in list(article_positions.items()):
+        if context_size(messages) <= MAX_CONTEXT_CHARS:
+            break
+        messages[position]["content"] = (
+            "[Article text removed to save space. Fetch it again if you still need it.]"
+        )
+        del article_positions[url]
+
 
 def run_agent():
     load_dotenv(override=True)
@@ -23,13 +45,14 @@ def run_agent():
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": f"Today is {date.today().isoformat()}. "
-                                    "Find the important AI news from the last 2 days and save it for the website."},
+                                    "Find the important AI news from the last day and save it for the website."},
     ]
     article_positions = {}   # url -> position of its text in messages
     bad_calls = 0
 
     try:
         for step in range(1, MAX_STEPS + 1):
+            trim_context(messages, article_positions)
             try:
                 response = client.chat.completions.create(
                     model=model, messages=messages, tools=TOOL_SCHEMAS,
