@@ -166,5 +166,29 @@
     "summary": "Google AI has introduced Playground, a browser‑based platform that lets anyone create, play, and share custom games using simple text prompts. The tool offers a conversational interface, community game catalog, multiplayer support, and will later integrate with Unity Spark for advanced features.",
     "title": "Google AI launches Playground, a text‑prompt game maker",
     "why_it_matters": "Playground makes game design accessible to people without coding skills, opening up creative possibilities and new ways to experiment with AI in gaming."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-10-07T16:54:33+00:00",
+    "reason": "Official release of new lightweight multimodal decision models",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/LiquidAI/open-d1",
+    "status": "official",
+    "summary": "LiquidAI announced two new decision models: d1-3B, a 3‑billion‑parameter model that handles text and images, and d1-omni‑600M, a 600‑million‑parameter model that supports text+image or text+audio. Both models are built from Liquid Foundation Models and deliver fast inference on edge hardware, answering a question in under 50 ms on Jetson devices. They outperform larger Decider models on several public benchmarks.",
+    "title": "LiquidAI releases lightweight multimodal decision models for edge devices",
+    "why_it_matters": "These models enable developers to run quick, multimodal decision tasks on low‑power devices, making on‑device AI more practical for mobile and IoT applications."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-10-07T00:00:00+00:00",
+    "reason": "Clear announcement of a new model with new features",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/gpt-6-for-everyone",
+    "status": "official",
+    "summary": "OpenAI announced GPT‑6, a new model now available to all ChatGPT users. It introduces Intelligent UI, letting the model create interactive elements like charts, buttons, and custom tools inside the chat. GPT‑6 also interleaves thinking and answering, speeding up responses and improving quality.",
+    "title": "OpenAI releases GPT‑6 with interactive UI for all users",
+    "why_it_matters": "The new model lets users get visual, interactive answers that make complex topics easier to understand and tasks simpler to complete, while also providing faster, safer responses."
   }
 ]
