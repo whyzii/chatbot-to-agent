@@ -2,7 +2,7 @@ name: Daily news update
 
 on:
   schedule:
-    - cron: "0 7 * * *"     # every day at 07:00 UTC
+    - cron: "17 */3 * * *"   # every 3 hours, at minute 17 (UTC)
   workflow_dispatch:         # adds a "Run workflow" button to start it by hand
 
 permissions:
