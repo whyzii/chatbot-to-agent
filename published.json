@@ -106,5 +106,65 @@
     "summary": "NVIDIA and Hugging Face fine‑tuned Nemotron 3 to achieve gold‑level scores at the International Olympiad in Informatics and the International Mathematical Olympiad. The specialized models used supervised fine‑tuning, reinforcement learning, and a generate‑evaluate‑refine loop. They proved that a single foundation model can be adapted to very different high‑level reasoning tasks.",
     "title": "Nemotron model wins gold at IOI and IMO competitions",
     "why_it_matters": "It shows that large language models can be turned into expert systems for complex problem solving, which could help education and research tools."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-10-06T20:50:32+00:00",
+    "reason": "Official announcement from OpenAI about EU watermarking",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+    "status": "official",
+    "summary": "OpenAI announced it will automatically add a watermark to text produced by ChatGPT in the European Union. The watermark, called textGrain, is a hidden pattern that can be detected by a special tool. The feature will be off by default outside the EU, but can be turned on.",
+    "title": "OpenAI will watermark ChatGPT outputs by default in the EU",
+    "why_it_matters": "The change helps OpenAI meet the EU AI Act, which requires AI‑generated content to be marked. It also gives researchers a way to detect AI‑generated text, which can help prevent misuse."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-07T14:00:08+00:00",
+    "reason": "Official announcement of a new AI content detector tool",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+    "status": "official",
+    "summary": "Google has released an improved SynthID detector that can identify AI‑generated images, videos, and audio from its own Gemini models and from partners like OpenAI, Nvidia, Kakao, and Apple. The detector is available on a new public website, SynthID.com, and no longer requires access to Gemini to check for watermarks.",
+    "title": "Google launches a global AI content detector",
+    "why_it_matters": "The tool lets anyone verify whether media was created or edited by AI, helping to spot deepfakes and misinformation. It also supports a wider range of AI systems, making it easier to detect synthetic content across the industry."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-10-06T19:57:04+00:00",
+    "reason": "Official release of a new multimodal embedding model",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "status": "official",
+    "summary": "DeepMind announced EmbeddingGemma 2, an open‑source model with 740 million parameters that can embed text, code, images, video, and audio in a single space. It is built on the Gemma 4 architecture, runs efficiently on consumer devices, and offers an 8K‑token context window and modular encoders for different modalities.",
+    "title": "DeepMind releases EmbeddingGemma 2, a lightweight multimodal embedding model",
+    "why_it_matters": "The model lets developers add fast, privacy‑first search and retrieval to apps on phones and laptops, without needing powerful servers."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-10-07T14:12:37+00:00",
+    "reason": "New AI model announced by Mistral, official source",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+    "status": "official",
+    "summary": "French AI company Mistral has launched Le Chonk, a 1‑trillion‑parameter model that it says can compete with the best models from the US and China. The model is free, open‑weight, and optimized for coding, cyberdefense, and industry tasks. It is available in preview now, with a final version expected by month‑end.",
+    "title": "Mistral releases 1‑trillion‑parameter model \"Le Chonk\" that can rival top AI models",
+    "why_it_matters": "Le Chonk offers businesses a cheaper, open‑source alternative that can match proprietary models, reducing dependence on US and Chinese AI labs and boosting European AI competitiveness."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-07T12:00:00+00:00",
+    "reason": "Official announcement of a new AI-powered game creation tool",
+    "source": "Google AI",
+    "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+    "status": "official",
+    "summary": "Google AI has introduced Playground, a browser‑based platform that lets anyone create, play, and share custom games using simple text prompts. The tool offers a conversational interface, community game catalog, multiplayer support, and will later integrate with Unity Spark for advanced features.",
+    "title": "Google AI launches Playground, a text‑prompt game maker",
+    "why_it_matters": "Playground makes game design accessible to people without coding skills, opening up creative possibilities and new ways to experiment with AI in gaming."
   }
 ]

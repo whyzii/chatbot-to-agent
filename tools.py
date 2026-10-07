@@ -47,7 +47,7 @@ def get_latest_items(days: int = 7, max_items: int = 20) -> list[dict]:
     return items[:max_items]
 
 
-def fetch_article(url: str, max_chars: int = 3000) -> str:
+def fetch_article(url: str, max_chars: int = 5000) -> str:
     """Download a page and return the main article text."""
     downloaded = trafilatura.fetch_url(url)
     text = trafilatura.extract(downloaded) if downloaded else ""
