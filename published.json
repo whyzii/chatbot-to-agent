@@ -202,5 +202,17 @@
     "summary": "Microsoft announced the Surface Laptop Ultra, its first device using Nvidia’s RTX Spark SoC, and the Surface RTX Spark Dev Box, a $5,999 workstation with 128 GB unified memory and a petaflop of AI compute. The laptop starts at $2,599 and ships October 16, while the dev box ships with a Windows 11 build optimized for local AI development. Both devices aim to support developers and power local AI workflows.",
     "title": "Microsoft unveils AI‑friendly Surface laptop and dev box at event",
     "why_it_matters": "These new machines give developers and power users powerful, AI‑ready hardware in a familiar Windows environment, making advanced AI tasks more accessible at home and in the office."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-10-07T17:57:39+00:00",
+    "reason": "Clear criminal case involving AI fraud, official DOJ source",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+    "status": "official",
+    "summary": "A 54‑year‑old North Carolina man, Michael Smith, was sentenced to 18 months in prison for running a seven‑year scheme that used AI‑generated songs and thousands of bots to fraudulently stream music on major platforms. He created hundreds of thousands of fake songs, distributed billions of automated streams, and in one month in 2023 his fake catalog was streamed 80.9 million times, far more than Taylor Swift’s catalog.",
+    "title": "Fraudster jailed for using 10,000 bots and AI songs to outstream Taylor Swift",
+    "why_it_matters": "The case shows how AI can be abused to commit large‑scale streaming fraud, threatening artists’ revenue and the integrity of music platforms. It also signals that law enforcement is actively pursuing such crimes."
   }
 ]
