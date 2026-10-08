@@ -214,5 +214,41 @@
     "summary": "A 54‑year‑old North Carolina man, Michael Smith, was sentenced to 18 months in prison for running a seven‑year scheme that used AI‑generated songs and thousands of bots to fraudulently stream music on major platforms. He created hundreds of thousands of fake songs, distributed billions of automated streams, and in one month in 2023 his fake catalog was streamed 80.9 million times, far more than Taylor Swift’s catalog.",
     "title": "Fraudster jailed for using 10,000 bots and AI songs to outstream Taylor Swift",
     "why_it_matters": "The case shows how AI can be abused to commit large‑scale streaming fraud, threatening artists’ revenue and the integrity of music platforms. It also signals that law enforcement is actively pursuing such crimes."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-08T11:15:33+00:00",
+    "reason": "Article reports Nvidia’s new Halos for Robotics safety system and its physical AI strategy",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+    "status": "reported",
+    "summary": "Nvidia has released Halos for Robotics, a full‑stack safety system that adds hardware and software guardrails for autonomous robots. It builds on the company’s earlier Halos for self‑driving cars and is part of Nvidia’s larger push into physical AI, which already brings about $10 billion in revenue and includes investments in humanoid robot startups.",
+    "title": "Nvidia launches Halos for Robotics to make autonomous machines safer",
+    "why_it_matters": "Safer autonomous robots could reduce accidents in robotaxis, warehouses, and factories, making these technologies more reliable and acceptable to the public."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-10-08T00:00:00+00:00",
+    "reason": "Official OpenAI report on stopping false‑front influence operations",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "status": "official",
+    "summary": "OpenAI says it has shut down two covert influence campaigns—one from Russia and one from Iran—that used its models to create fake journalist personas and think‑tank fronts to spread political messaging. The operations used AI to draft content and were rated as high‑reach (Category 5 and 4). The company banned the accounts and exposed the schemes.",
+    "title": "OpenAI reports disruption of AI‑enabled false‑front influence operations",
+    "why_it_matters": "It shows how AI can help create realistic fake media fronts, raising the risk of misinformation. Knowing that OpenAI is actively monitoring and shutting down such use helps users understand the limits of the models and the importance of policy."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-07T21:56:42+00:00",
+    "reason": "The article reports a new set of open‑source AI‑powered apps that replicate Adobe software.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+    "status": "reported",
+    "summary": "A developer named Brandon Thomas used Anthropic’s Claude Opus 5.5 to create seven open‑source apps that mimic Adobe’s Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign, and Acrobat Pro. The apps are written in Rust with WebAssembly versions for browsers. He claims they will reach near‑full feature parity soon.",
+    "title": "Bold AI developer releases open‑source clones of Adobe software",
+    "why_it_matters": "These free tools could give designers and video editors an inexpensive alternative to Adobe’s paid suite, and show how AI can help reverse‑engineer proprietary software."
   }
 ]
