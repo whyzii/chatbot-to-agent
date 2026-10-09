@@ -250,5 +250,17 @@
     "summary": "A developer named Brandon Thomas used Anthropic’s Claude Opus 5.5 to create seven open‑source apps that mimic Adobe’s Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign, and Acrobat Pro. The apps are written in Rust with WebAssembly versions for browsers. He claims they will reach near‑full feature parity soon.",
     "title": "Bold AI developer releases open‑source clones of Adobe software",
     "why_it_matters": "These free tools could give designers and video editors an inexpensive alternative to Adobe’s paid suite, and show how AI can help reverse‑engineer proprietary software."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-09T15:20:29+00:00",
+    "reason": "The article reports a new scheduling system implemented by Ai2, a concrete tool improvement.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+    "status": "official",
+    "summary": "Ai2 replaced its priority‑based GPU scheduler with a system that uses GPU time budgets, hierarchical fair‑share allocation, and time‑slicing contracts. The change aims to make GPU allocation more transparent, reduce squatting and priority inflation, and improve availability, occupancy, impact, and utilization of its large NVIDIA GPU clusters.",
+    "title": "Ai2 launches new GPU scheduling system to boost research efficiency",
+    "why_it_matters": "By giving researchers a clearer, fairer way to get GPU time, the new system can cut wait times and help teams plan experiments more efficiently."
   }
 ]
