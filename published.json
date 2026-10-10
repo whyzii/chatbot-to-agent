@@ -262,5 +262,41 @@
     "summary": "Ai2 replaced its priority‑based GPU scheduler with a system that uses GPU time budgets, hierarchical fair‑share allocation, and time‑slicing contracts. The change aims to make GPU allocation more transparent, reduce squatting and priority inflation, and improve availability, occupancy, impact, and utilization of its large NVIDIA GPU clusters.",
     "title": "Ai2 launches new GPU scheduling system to boost research efficiency",
     "why_it_matters": "By giving researchers a clearer, fairer way to get GPU time, the new system can cut wait times and help teams plan experiments more efficiently."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-10-09T19:43:50+00:00",
+    "reason": "Article reports a study on AI coding agents' impact on software output",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+    "status": "reported",
+    "summary": "A Harvard study of 700 software firms found that AI coding agents raise lines of code, commits, and pull requests by 20‑30 %. However, the extra code does not lead to more resolved issues or features, because code review becomes a bigger bottleneck.",
+    "title": "AI coding agents increase code output but not software production",
+    "why_it_matters": "Companies using AI coding tools may see more code written, but without faster reviews they won’t see higher software output. The study highlights the need to improve review workflows to realize AI benefits."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-09T07:00:00+00:00",
+    "reason": "Real announcement from OpenAI about Sophos using Daybreak to speed investigations",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/sophos",
+    "status": "official",
+    "summary": "Sophos has partnered with OpenAI’s Daybreak program to add AI agents to its Managed Detection and Response service. The agents gather context, plan investigations, and can resolve about half of cases automatically, cutting average response time from 38 minutes to 89 seconds. The system keeps human oversight for any actions that could be destructive.",
+    "title": "Sophos cuts threat investigation time by 96% using OpenAI Daybreak",
+    "why_it_matters": "Faster threat investigation means customers can stop attacks sooner and frees security staff to focus on complex problems. It shows how AI can scale cybersecurity for many organisations."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-10-09T07:00:00+00:00",
+    "reason": "Article reports a real optimization by Asana using GPT‑6.1 Sol, with clear facts and no missing details",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/asana-browser-agent",
+    "status": "reported",
+    "summary": "Asana used GPT‑6.1 Sol to optimize its browser agent, cutting estimated model costs by 76 times and speeding runs five times faster in tests. The changes involved better caching of browsing history, larger text budgets, and smarter screenshot handling.",
+    "title": "Asana cuts model costs 76x in browser tests with GPT‑6.1 Sol",
+    "why_it_matters": "Lower costs and faster runs make automated workflows cheaper and more efficient for businesses using Asana’s StackAI platform."
   }
 ]
