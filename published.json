@@ -298,5 +298,17 @@
     "summary": "Asana used GPT‑6.1 Sol to optimize its browser agent, cutting estimated model costs by 76 times and speeding runs five times faster in tests. The changes involved better caching of browsing history, larger text budgets, and smarter screenshot handling.",
     "title": "Asana cuts model costs 76x in browser tests with GPT‑6.1 Sol",
     "why_it_matters": "Lower costs and faster runs make automated workflows cheaper and more efficient for businesses using Asana’s StackAI platform."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-10-09T22:04:07+00:00",
+    "reason": "Article reports a real event affecting an AI data center",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+    "status": "reported",
+    "summary": "Ukrainian drones struck two of Yandex’s five data centers in the Sasovo and Kaluga regions, damaging the facilities that host the company’s supercomputers used for training its YandexGPT AI model. The attacks caused disruptions to Yandex’s AI chatbot and other online services.",
+    "title": "Ukrainian drones hit Yandex AI data centers",
+    "why_it_matters": "The strike shows how military conflict can damage AI infrastructure, affecting users who rely on Yandex’s search, AI, and other services."
   }
 ]
