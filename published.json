@@ -1632,5 +1632,53 @@
     "summary": "Boom Supersonic announced a new factory in Colorado to build gas turbines for AI data centers, shifting focus from its supersonic airliner project. United Airlines CEO Scott Kirby said the company’s 2029 delivery timeline for the Overture airliner is unlikely. The shift follows early backers questioning the timeline and the company’s ability to deliver.",
     "title": "Boom Supersonic faces doubts as company pivots to AI data center turbines",
     "why_it_matters": "It shows how a high‑profile aerospace startup is redirecting resources to a different market, affecting investors, airlines, and the future of supersonic travel."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-02T18:32:21+00:00",
+    "reason": "The article reports a new Apple home robot product with details on features, price, and release date.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+    "status": "reported",
+    "summary": "Apple is developing a roaming home robot that can support FaceTime calls, automatically turn on lights when someone enters a room, and may be named HomeView Ultra. The robot, code‑named J595, is expected to launch around 2027 at a price of $1,000 or more, though delays could push it to 2028.",
+    "title": "Apple plans a $1,000 home robot that can FaceTime and control lights",
+    "why_it_matters": "It shows Apple expanding into home robotics and adding new ways to use FaceTime and smart‑home control, but the high price and limited features may affect its appeal to consumers."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-02T18:05:31+00:00",
+    "reason": "Article reports a new policy change by Anthropic, confirmed by an engineer, so it is newsworthy.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+    "status": "official",
+    "summary": "Anthropic added a new rule to Claude’s system prompt that tells the model not to recreate specific existing video games. The rule was added to the Opus 5.5 model and is meant to keep the company from IP‑infringing uses.",
+    "title": "Anthropic adds rule to Claude to stop game cloning",
+    "why_it_matters": "The move shows how AI companies try to prevent copyright violations, but it may also make it harder for developers to use Claude for legitimate game projects."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-11-02T15:00:00+00:00",
+    "reason": "OpenAI announced a new national program to use compute campuses for grid flexibility",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/grid-protectors-program",
+    "status": "official",
+    "summary": "OpenAI has started the Grid Protectors Program, a national effort to make its future compute campuses flexible power users. The program will work with utilities and regulators to reduce electricity demand when the grid is stressed, using on‑site generation, storage, and demand‑response agreements. The first pilot is in Effingham County, Georgia, where the campus will provide up to 1,000 megawatts of flexible demand to keep homes and businesses powered during extreme weather.",
+    "title": "OpenAI launches Grid Protectors Program to help power grid",
+    "why_it_matters": "By sharing its power load, OpenAI can help keep electricity reliable and affordable for families and small businesses, while also avoiding costly grid upgrades. The program shows how large AI facilities can support the electric grid instead of just adding demand."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-02T09:00:00+00:00",
+    "reason": "OpenAI announced a new evaluation framework for everyday tasks",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/lifeval",
+    "status": "official",
+    "summary": "OpenAI released LifeVal, an evaluation that covers everyday tasks such as childcare, budgeting, and grocery ordering. It is based on large time‑use studies and a survey of 3,995 people. The framework tracks how well models like ChatGPT can help users complete real‑world tasks.",
+    "title": "OpenAI introduces LifeVal, a new evaluation for everyday tasks",
+    "why_it_matters": "It gives a concrete way to measure and improve AI’s usefulness in daily life, helping guide future development."
   }
 ]
