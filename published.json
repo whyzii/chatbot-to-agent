@@ -1680,5 +1680,29 @@
     "summary": "OpenAI released LifeVal, an evaluation that covers everyday tasks such as childcare, budgeting, and grocery ordering. It is based on large time‑use studies and a survey of 3,995 people. The framework tracks how well models like ChatGPT can help users complete real‑world tasks.",
     "title": "OpenAI introduces LifeVal, a new evaluation for everyday tasks",
     "why_it_matters": "It gives a concrete way to measure and improve AI’s usefulness in daily life, helping guide future development."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-03T08:00:00+00:00",
+    "reason": "The article reports a real, official use of OpenAI by Heimstaden to improve property management, fitting the Tools and products category.",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/heimstaden",
+    "status": "official",
+    "summary": "Heimstaden, a European residential real‑estate operator, has adopted OpenAI’s tools to automate and improve key parts of its letting process. AI now handles pricing suggestions, image styling, listing reviews and market feedback, cutting image production costs by 99% and saving about €130,000 a year in the Netherlands. The company also used Codex to streamline environmental risk assessments across 20,112 properties, reducing the effort from a year of five people to two months of two people.",
+    "title": "Heimstaden uses OpenAI to transform residential real estate management",
+    "why_it_matters": "By automating routine tasks, Heimstaden can list homes faster, lower costs and respond more quickly to market changes, making renting easier for tenants and more efficient for landlords."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-02T18:00:00+00:00",
+    "reason": "Official announcement from OpenAI about bug bounty changes",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "status": "official",
+    "summary": "OpenAI announced it is more than quadrupling the midpoint of its bug bounty rewards for medium, high, and critical vulnerabilities. Critical findings in core products can now earn up to $30,000, with exceptional cases up to $100,000 and $172,000 with bonuses. The program also adds quality multipliers, a five‑tier loyalty bonus, and priority campaigns for new features.",
+    "title": "OpenAI raises bug bounty rewards to up to $172,000 for critical findings",
+    "why_it_matters": "Higher rewards and new incentives encourage independent researchers to find and report security issues, helping make OpenAI’s AI tools safer for everyone."
   }
 ]
