@@ -1704,5 +1704,53 @@
     "summary": "OpenAI announced it is more than quadrupling the midpoint of its bug bounty rewards for medium, high, and critical vulnerabilities. Critical findings in core products can now earn up to $30,000, with exceptional cases up to $100,000 and $172,000 with bonuses. The program also adds quality multipliers, a five‑tier loyalty bonus, and priority campaigns for new features.",
     "title": "OpenAI raises bug bounty rewards to up to $172,000 for critical findings",
     "why_it_matters": "Higher rewards and new incentives encourage independent researchers to find and report security issues, helping make OpenAI’s AI tools safer for everyone."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-03T17:54:43+00:00",
+    "reason": "Google announced a policy change for schools that affects AI tools and search",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+    "status": "official",
+    "summary": "Google said schools using its education products will be opted out of AI tools such as Gemini and Gemini Notebook by default. Administrators can manually enable the tools, but if they do, they must also keep Google Search enabled. Schools cannot choose one without the other.",
+    "title": "Google lets schools opt out of AI tools, but that means losing search",
+    "why_it_matters": "Teachers and students will have to decide whether to use AI help or keep search. The choice could affect how they find information and use classroom tools."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-03T17:01:49+00:00",
+    "reason": "article describes a new tool released by DeepMind",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "status": "official",
+    "summary": "DeepMind has added Cheminformatics Skills to its Antigravity agent, letting it search chemical literature, analyze molecules, and propose new drug candidates in about an hour. The system uses RDKit and databases like ChEMBL and PubChem to perform tasks such as matched‑molecular‑pair analysis and rigidification of macrocycles, demonstrated on lung‑cancer drugs.",
+    "title": "Google DeepMind releases new Cheminformatics Skills for its Antigravity agent",
+    "why_it_matters": "The tool cuts the time needed to design and evaluate new drug molecules from days to hours, helping chemists focus on creative ideas and speeding up potential treatments."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-03T16:35:36+00:00",
+    "reason": "The article reports a new model released by IBM Research.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "status": "official",
+    "summary": "IBM Research released Palette, a 20‑billion‑parameter model fine‑tuned to create PowerPoint decks that match a company’s design language. It uses a two‑step process: a designer‑style JSON brief and a coder that writes slide‑drawing code, trained on synthetic decks with reasoning. Palette outperforms other small models on the PresentBench benchmark.",
+    "title": "Palette: a small model that builds slide decks in your design language",
+    "why_it_matters": "It lets companies keep deck data on their own servers while still using AI to generate consistent, brand‑aligned presentations, protecting privacy and reducing reliance on large cloud models."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-03T12:00:00+00:00",
+    "reason": "Short but clear blog post about AI tools in engineering",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "status": "official",
+    "summary": "OpenAI explains that ChatGPT and Codex can help engineers accelerate CAD, PCB design, simulation, and other workflows in the physical world.",
+    "title": "OpenAI shows how ChatGPT and Codex speed up engineering tasks",
+    "why_it_matters": "Engineers can save time and reduce errors by using AI to automate parts of their design and testing processes."
   }
 ]
