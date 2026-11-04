@@ -1776,5 +1776,17 @@
     "summary": "Collinear AI has released CWE‑bench v2, a public benchmark with 100 tasks that test models on real open‑source repositories for finding and fixing security weaknesses. The tasks cover 91 different Common Weakness Enumerations (CWEs) and include programmatic scoring, hand‑reviewed quality checks, and a held‑out set for tracking progress. Results are tracked on Hugging Face, with leaderboards showing performance of models like Gemini 4 Argon and Claude Opus 5.5.",
     "title": "CWE‑bench v2 benchmark released with 100 tasks covering 91 CWEs",
     "why_it_matters": "Developers and researchers can use the benchmark to evaluate and improve their models’ security‑fixing abilities, helping build safer AI systems."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-03T00:00:00+00:00",
+    "reason": "Article describes Hugging Face’s new Model Integration Contracts testing framework",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/transformers-mic",
+    "status": "official",
+    "summary": "Hugging Face has released a new standard called Model Integration Contracts (MIC) to streamline integration testing of transformer models. MIC bundles a small, shrunk model fixture, a runnable usage example, and human‑reviewed baselines. The framework lets developers run quick CPU tests that catch regressions before code reaches the main branch.",
+    "title": "Hugging Face introduces Model Integration Contracts for testing AI models",
+    "why_it_matters": "MIC reduces the need for expensive GPU runs and helps developers catch bugs early, improving the reliability of AI models."
   }
 ]
