@@ -1788,5 +1788,41 @@
     "summary": "Hugging Face has released a new standard called Model Integration Contracts (MIC) to streamline integration testing of transformer models. MIC bundles a small, shrunk model fixture, a runnable usage example, and human‑reviewed baselines. The framework lets developers run quick CPU tests that catch regressions before code reaches the main branch.",
     "title": "Hugging Face introduces Model Integration Contracts for testing AI models",
     "why_it_matters": "MIC reduces the need for expensive GPU runs and helps developers catch bugs early, improving the reliability of AI models."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-11-04T14:30:00+00:00",
+    "reason": "The article reports a confirmed acquisition announced by OpenAI.",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/openai-to-acquire-pierre",
+    "status": "official",
+    "summary": "OpenAI announced it will acquire Pierre Computer Company, a software firm that builds tools for coding. The acquisition will expand Codex’s tools for building, understanding, and reviewing code.",
+    "title": "OpenAI to acquire Pierre Computer Company to expand Codex tools",
+    "why_it_matters": "It could improve AI coding assistants and make it easier for developers to write and debug code."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-04T07:00:00+00:00",
+    "reason": "OpenAI announced new availability of Daybreak Red in AWS GovCloud",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+    "status": "official",
+    "summary": "OpenAI has made its Daybreak Red model, which includes GPT‑5.6 Cyber, available to approved customers in the AWS GovCloud (US‑East) region through Amazon Bedrock for cybersecurity work.",
+    "title": "Daybreak Red now available in AWS GovCloud (US-East)",
+    "why_it_matters": "It gives U.S. government and defense customers a secure, cloud‑based AI tool for cybersecurity tasks."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-04T17:50:10+00:00",
+    "reason": "The article announces a new AI model with details and performance claims.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+    "status": "official",
+    "summary": "Dharma AI has released a 2‑billion‑parameter Field Extractor model that reads any document image and returns the requested fields as typed JSON. The model can work in an open mode, finding all structured fields, or in a schema‑directed mode, filling only the fields you specify. It was trained on 43,000 examples from many document types and outperforms large language models on this task at lower cost.",
+    "title": "Dharma AI releases Field Extractor model that pulls structured fields from any document into JSON",
+    "why_it_matters": "Businesses that need to pull data from invoices, forms, IDs, or medical requisitions can use the model to automate extraction, saving time and reducing the cost of using general‑purpose LLMs."
   }
 ]
