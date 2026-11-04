@@ -1752,5 +1752,29 @@
     "summary": "OpenAI explains that ChatGPT and Codex can help engineers accelerate CAD, PCB design, simulation, and other workflows in the physical world.",
     "title": "OpenAI shows how ChatGPT and Codex speed up engineering tasks",
     "why_it_matters": "Engineers can save time and reduce errors by using AI to automate parts of their design and testing processes."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-03T17:15:21+00:00",
+    "reason": "New research benchmark for state tracking in long documents",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/allenai/statebench",
+    "status": "official",
+    "summary": "AllenAI released StateBench, a benchmark that measures how well language models keep track of changing information about entities in long texts. It has four difficulty levels, from simple immutable assignments to complex reference updates, and tests models such as transformers, recurrent, and hybrid architectures. The study shows that recurrent and hybrid models generalize better than transformers on longer inputs, while top models still struggle with the hardest tasks.",
+    "title": "StateBench benchmark tests language models' ability to track state in long documents",
+    "why_it_matters": "Understanding a model’s state‑tracking limits helps developers choose the right architecture for tasks like code analysis, story comprehension, or any application that requires remembering evolving facts. It also guides future research to improve long‑context understanding."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-03T00:00:00+00:00",
+    "reason": "The article announces a new benchmark dataset released by Collinear AI, which is newsworthy.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/cwe-bench",
+    "status": "official",
+    "summary": "Collinear AI has released CWE‑bench v2, a public benchmark with 100 tasks that test models on real open‑source repositories for finding and fixing security weaknesses. The tasks cover 91 different Common Weakness Enumerations (CWEs) and include programmatic scoring, hand‑reviewed quality checks, and a held‑out set for tracking progress. Results are tracked on Hugging Face, with leaderboards showing performance of models like Gemini 4 Argon and Claude Opus 5.5.",
+    "title": "CWE‑bench v2 benchmark released with 100 tasks covering 91 CWEs",
+    "why_it_matters": "Developers and researchers can use the benchmark to evaluate and improve their models’ security‑fixing abilities, helping build safer AI systems."
   }
 ]
