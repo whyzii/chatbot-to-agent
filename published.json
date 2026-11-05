@@ -1824,5 +1824,41 @@
     "summary": "Dharma AI has released a 2‑billion‑parameter Field Extractor model that reads any document image and returns the requested fields as typed JSON. The model can work in an open mode, finding all structured fields, or in a schema‑directed mode, filling only the fields you specify. It was trained on 43,000 examples from many document types and outperforms large language models on this task at lower cost.",
     "title": "Dharma AI releases Field Extractor model that pulls structured fields from any document into JSON",
     "why_it_matters": "Businesses that need to pull data from invoices, forms, IDs, or medical requisitions can use the model to automate extraction, saving time and reducing the cost of using general‑purpose LLMs."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-04T08:00:00+00:00",
+    "reason": "Official announcement of a new automated vulnerability discovery and patching pipeline",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "status": "official",
+    "summary": "OpenAI announced a new autonomous pipeline that scans the Linux kernel, reproduces vulnerabilities, creates proof‑of‑concept exploits, and generates patches. In a recent run it identified 1,724 vulnerabilities, produced 948 working local privilege escalation exploits, and generated patches for 948 of them, all at a cost of about $1.2 million in API credits.",
+    "title": "OpenAI releases automated pipeline that finds and patches Linux kernel vulnerabilities",
+    "why_it_matters": "Automated tools can find and fix security holes faster and cheaper than manual methods, helping keep widely used software safer for everyone."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-04T00:00:00+00:00",
+    "reason": "Official announcement of a new image generation model",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/introducing-images-2-6",
+    "status": "official",
+    "summary": "OpenAI has launched Images 2.6, a new image generation model for ChatGPT, Codex, and the API. The model is 50% faster than its predecessor and offers two variants—Flare for quick, low‑quality images and Sunburst for higher‑quality, more detailed output. It also adds GIF generation, image markup, and SVG export features for developers.",
+    "title": "OpenAI releases Images 2.6 image generation model",
+    "why_it_matters": "The faster and more flexible image creation helps creators, marketers, and developers produce visuals and animated GIFs quickly, boosting productivity and opening new creative possibilities."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-04T00:00:00+00:00",
+    "reason": "Official product announcement about DevRev's new AI tools",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/devrev-enterprise-self-service",
+    "status": "official",
+    "summary": "DevRev has released Computer and Operator, AI agents that use GPT‑6.1 Sol to handle customer and employee requests. The agents reason across live data, can reverse actions, and link answers to sources. They are built to be fast, reliable, and cost‑effective for enterprise service.",
+    "title": "DevRev launches self‑service tools powered by GPT‑6.1 Sol",
+    "why_it_matters": "It shows how companies can use advanced AI to automate support and operations, speeding up responses and reducing costs."
   }
 ]
