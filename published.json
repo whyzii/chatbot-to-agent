@@ -1860,5 +1860,29 @@
     "summary": "DevRev has released Computer and Operator, AI agents that use GPT‑6.1 Sol to handle customer and employee requests. The agents reason across live data, can reverse actions, and link answers to sources. They are built to be fast, reliable, and cost‑effective for enterprise service.",
     "title": "DevRev launches self‑service tools powered by GPT‑6.1 Sol",
     "why_it_matters": "It shows how companies can use advanced AI to automate support and operations, speeding up responses and reducing costs."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-05T00:00:00+00:00",
+    "reason": "Official release of a new on‑device TTS model",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/phonon-tts",
+    "status": "official",
+    "summary": "Hugging Face released Phonon, a text‑to‑speech model that runs entirely on a device. The 65‑75 MB models speak five languages and beat many larger models on speed and intelligibility. The weights are open‑source, with the 31 m version under Apache 2.0 for commercial use.",
+    "title": "Phonon TTS: a small, high‑quality on‑device text‑to‑speech model",
+    "why_it_matters": "People can add natural voice to apps without a server or internet, saving bandwidth and protecting privacy. The model’s small size makes it usable on phones, laptops, and browsers."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-05T02:00:00+00:00",
+    "reason": "Official announcement from OpenAI about new responsible AI infrastructure commitments",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "status": "official",
+    "summary": "OpenAI released a National Community Compact and a Compute Campus Policy Blueprint. The compact says each future AI campus will pay for its own energy, protect local resources, and create jobs. The blueprint proposes policies so communities can shape campus plans and share the benefits.",
+    "title": "OpenAI announces new rules for building AI infrastructure responsibly",
+    "why_it_matters": "It means AI companies will involve local residents, protect water and power use, and help create jobs. It also pushes lawmakers to set rules that keep communities safe and benefit from AI."
   }
 ]
