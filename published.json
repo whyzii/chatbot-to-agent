@@ -1884,5 +1884,41 @@
     "summary": "OpenAI released a National Community Compact and a Compute Campus Policy Blueprint. The compact says each future AI campus will pay for its own energy, protect local resources, and create jobs. The blueprint proposes policies so communities can shape campus plans and share the benefits.",
     "title": "OpenAI announces new rules for building AI infrastructure responsibly",
     "why_it_matters": "It means AI companies will involve local residents, protect water and power use, and help create jobs. It also pushes lawmakers to set rules that keep communities safe and benefit from AI."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-05T19:35:16+00:00",
+    "reason": "New open models announced by NVIDIA",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "status": "official",
+    "summary": "NVIDIA added four open‑weight checkpoints to its Cosmos 3 model family. The checkpoints generate multi‑view driving data with varied weather, stream synchronized camera and LiDAR observations, turn simulator controls into photorealistic video, and predict video from robot or camera actions. All models are 16B and released under the OpenMDW1.1 license.",
+    "title": "NVIDIA releases four new Cosmos 3 models for interactive world simulation",
+    "why_it_matters": "The models give researchers and developers ready tools to build realistic simulated environments for autonomous driving and robotics, speeding up training and testing of AI policies."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-05T17:05:16+00:00",
+    "reason": "New model announced by DeepMind",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+    "status": "official",
+    "summary": "DeepMind has launched Gemini Omni 1.2 Flash, a new version of its video‑generation model. It supports native video creation up to 15 seconds, offers multi‑turn conversational editing, and keeps references such as faces, garments and brand colors consistent. The price is cut 30 % from the previous version to $0.07 per second for 720p video.",
+    "title": "Gemini Omni 1.2 Flash released – cheaper, longer video clips and better editing",
+    "why_it_matters": "The lower cost and faster workflow let creators, marketers and businesses produce higher‑quality videos more quickly, making advanced video generation more accessible."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-05T09:00:00+00:00",
+    "reason": "Official announcement of a new AI model with measurable improvements and real-world use",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "status": "official",
+    "summary": "OpenAI announced GPT‑6 Cyber, a new AI model that can locate and validate software vulnerabilities. It outperforms the previous GPT‑5.6 Cyber on benchmarks such as ExploitGym, scoring 48.5% versus 32.1%. The model has already helped researchers find 948 privilege‑escalation exploits in Linux and 81 new high‑severity bugs in Firefox, and is being used by security teams at companies like Cisco and Mozilla.",
+    "title": "OpenAI releases GPT‑6 Cyber, a new AI for finding and fixing software vulnerabilities",
+    "why_it_matters": "AI that can automatically find and fix security bugs can help developers protect software faster, reducing the chance that attackers exploit unknown weaknesses."
   }
 ]
