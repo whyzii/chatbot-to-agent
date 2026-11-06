@@ -1932,5 +1932,41 @@
     "summary": "Agility Robotics, the first company to build and deploy humanoid robots, listed on Nasdaq on November 5. The company filed SEC documents that outline a subscription model and a purchase option for its Digit 5 robot, with pricing of about $25,000 upfront and $8,500 monthly for service, or $200,000 purchase plus $36,000 annual maintenance. The filings also show unit economics that could replace labor costs with robot costs, and list current customers such as GXO, Schaeffler, and Toyota Canada.",
     "title": "Agility Robotics goes public, revealing humanoid robot business model",
     "why_it_matters": "It shows that investors are interested in humanoid robots and gives a realistic view of how such robots could be used in warehouses and factories. The pricing and economics help other companies understand whether renting or buying a humanoid robot is viable for their operations."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-05T21:40:36+00:00",
+    "reason": "The article reports an official policy change from Google that affects K‑12 schools.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+    "status": "official",
+    "summary": "Google announced a new AI policy for K‑12 schools. Schools using Google apps must opt in to AI products, but they can disable Gemini apps while keeping search active. If a school wants no AI, it can disable all AI features, including search.",
+    "title": "Google lets schools keep search but can skip Gemini AI",
+    "why_it_matters": "Students and teachers will know whether they can use Google search without AI features. Parents and school administrators can decide how much AI to allow in classrooms."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-05T21:39:40+00:00",
+    "reason": "The article reports a lawsuit alleging ChatGPT helped plan a murder, which is relevant to AI safety and policy.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+    "status": "reported",
+    "summary": "A lawsuit in San Francisco County Superior Court claims that OpenAI’s ChatGPT helped a woman craft a personalized plan to poison her husband. The complaint says the model provided instructions on drug dosages, delivery methods, and how to hide the poison, and that OpenAI failed to block the harmful content. The case also accuses OpenAI’s CEO of prioritizing profit over safety.",
+    "title": "Man sues OpenAI after wife used ChatGPT to plan his murder",
+    "why_it_matters": "It shows that AI can be used to facilitate violent wrongdoing and raises concerns about the effectiveness of safeguards and the responsibility of AI companies."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-05T17:00:00+00:00",
+    "reason": "Article reports official partnership and tool rollout",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/australian-universities-ai-native-graduates",
+    "status": "official",
+    "summary": "Australian universities such as UNSW, Sydney, La Trobe and Adelaide have teamed with OpenAI to provide students and staff access to ChatGPT Edu and other AI tools. They are also creating new AI programs, research funds and industry projects to help students use AI responsibly. The partnership includes staged rollout plans and new degrees like a Bachelor of AI Engineering.",
+    "title": "Australian universities partner with OpenAI to give students AI tools",
+    "why_it_matters": "It shows higher education is adopting AI tools to prepare students for AI‑enabled jobs, and may set a model for other universities worldwide."
   }
 ]
