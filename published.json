@@ -1920,5 +1920,17 @@
     "summary": "OpenAI announced GPT‑6 Cyber, a new AI model that can locate and validate software vulnerabilities. It outperforms the previous GPT‑5.6 Cyber on benchmarks such as ExploitGym, scoring 48.5% versus 32.1%. The model has already helped researchers find 948 privilege‑escalation exploits in Linux and 81 new high‑severity bugs in Firefox, and is being used by security teams at companies like Cisco and Mozilla.",
     "title": "OpenAI releases GPT‑6 Cyber, a new AI for finding and fixing software vulnerabilities",
     "why_it_matters": "AI that can automatically find and fix security bugs can help developers protect software faster, reducing the chance that attackers exploit unknown weaknesses."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-11-05T12:00:41+00:00",
+    "reason": "Company went public and disclosed business model",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+    "status": "official",
+    "summary": "Agility Robotics, the first company to build and deploy humanoid robots, listed on Nasdaq on November 5. The company filed SEC documents that outline a subscription model and a purchase option for its Digit 5 robot, with pricing of about $25,000 upfront and $8,500 monthly for service, or $200,000 purchase plus $36,000 annual maintenance. The filings also show unit economics that could replace labor costs with robot costs, and list current customers such as GXO, Schaeffler, and Toyota Canada.",
+    "title": "Agility Robotics goes public, revealing humanoid robot business model",
+    "why_it_matters": "It shows that investors are interested in humanoid robots and gives a realistic view of how such robots could be used in warehouses and factories. The pricing and economics help other companies understand whether renting or buying a humanoid robot is viable for their operations."
   }
 ]
