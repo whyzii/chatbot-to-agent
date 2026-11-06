@@ -1968,5 +1968,41 @@
     "summary": "Australian universities such as UNSW, Sydney, La Trobe and Adelaide have teamed with OpenAI to provide students and staff access to ChatGPT Edu and other AI tools. They are also creating new AI programs, research funds and industry projects to help students use AI responsibly. The partnership includes staged rollout plans and new degrees like a Bachelor of AI Engineering.",
     "title": "Australian universities partner with OpenAI to give students AI tools",
     "why_it_matters": "It shows higher education is adopting AI tools to prepare students for AI‑enabled jobs, and may set a model for other universities worldwide."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-06T14:00:48+00:00",
+    "reason": "New framework for robot learning environments, official release",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/allenai/toyblocks",
+    "status": "official",
+    "summary": "AllenAI introduced ToyBlocks, a controlled simulated world with a robot arm and blocks. It automatically generates tasks and demonstrations, allowing researchers to study learning and generalization in a repeatable setting. The framework uses reinforcement learning and motion planning and can be extended to more complex environments.",
+    "title": "ToyBlocks: a new simulation framework for robot learning",
+    "why_it_matters": "ToyBlocks lets researchers test robot learning cheaply and reliably, helping to understand why models succeed or fail. It speeds progress toward more robust, generalizable robotics systems."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-06T00:00:00+00:00",
+    "reason": "New benchmark announced by OpenAI",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "status": "official",
+    "summary": "OpenAI introduced BioBasicsBench, a benchmark of 100 routine wet‑lab tasks that test how well AI agents can read raw experimental data, spot errors, and decide when evidence is insufficient. The benchmark was created with Ligo, a biotech company, and includes tasks such as interpreting gel images, colony plates, microscopy, and instrument readouts. Early results show GPT‑6 Astra scores 66.7% on the hardest setting, up from 43.8% for GPT‑5.6 Sol, showing progress but still room for improvement.",
+    "title": "OpenAI releases BioBasicsBench to test AI on wet‑lab tasks",
+    "why_it_matters": "Scientists need AI that can reliably read lab data to avoid costly mistakes. A benchmark like BioBasicsBench helps developers build and test agents that can support real‑world biology research."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-05T08:00:00+00:00",
+    "reason": "The article announces new tools from Merge that use OpenAI models, a clear product update.",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/merge-builds-with-openai",
+    "status": "official",
+    "summary": "Merge has launched a suite of tools that use OpenAI models such as GPT‑6 Astra, ChatGPT, and Codex to help companies build software, manage data, and automate business workflows. The new products include Merge Unified for data integration, Merge Agent Handler for secure AI agent access, Merge Gateway for model routing and cost control, and Merge for Workforce to give employees controlled AI access. Merge also uses these models internally for code review, product testing, marketing, and event planning, cutting planning time for executive dinners from hours to minutes.",
+    "title": "Merge launches AI-powered product and business tools using OpenAI models",
+    "why_it_matters": "Companies can embed OpenAI technology into their products and internal processes, saving time and improving productivity. The tools demonstrate how AI can be integrated into business workflows and product development."
   }
 ]
