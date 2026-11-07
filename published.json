@@ -2004,5 +2004,29 @@
     "summary": "Merge has launched a suite of tools that use OpenAI models such as GPT‑6 Astra, ChatGPT, and Codex to help companies build software, manage data, and automate business workflows. The new products include Merge Unified for data integration, Merge Agent Handler for secure AI agent access, Merge Gateway for model routing and cost control, and Merge for Workforce to give employees controlled AI access. Merge also uses these models internally for code review, product testing, marketing, and event planning, cutting planning time for executive dinners from hours to minutes.",
     "title": "Merge launches AI-powered product and business tools using OpenAI models",
     "why_it_matters": "Companies can embed OpenAI technology into their products and internal processes, saving time and improving productivity. The tools demonstrate how AI can be integrated into business workflows and product development."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-06T17:43:02+00:00",
+    "reason": "Meta announced it.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+    "status": "official",
+    "summary": "Meta has indefinitely delayed its planned commercial terms update that would have required business account holders to allow AI training on external sites linked from Facebook. The change was postponed after backlash from users, courts, and regulators, and after lawsuits in Brazil, Norway, and the UK. The update could have let Meta scrape news sites for AI training, potentially avoiding licensing fees.",
+    "title": "Meta pulls back controversial AI training terms for business accounts",
+    "why_it_matters": "The delay means current terms remain in effect, protecting publishers from unwanted AI scraping and preserving licensing revenue. It also shows regulatory pressure can influence big tech policy changes."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-06T00:00:00+00:00",
+    "reason": "New data added to public ASR leaderboard",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+    "status": "official",
+    "summary": "Hugging Face added two new private data splits for Egyptian and Nigerian English accents to the Open ASR Leaderboard, increasing the diversity of accents evaluated. The splits contain conversational, spontaneous speech with punctuated, cased transcriptions and disfluencies.",
+    "title": "Egyptian and Nigerian English added to Open ASR Leaderboard",
+    "why_it_matters": "Adding these accents helps speech‑recognition models work better for speakers of Egyptian and Nigerian English, and the leaderboard gives developers a reliable benchmark for testing performance across accents."
   }
 ]
