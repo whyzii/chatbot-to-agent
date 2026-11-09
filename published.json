@@ -2028,5 +2028,65 @@
     "summary": "Hugging Face added two new private data splits for Egyptian and Nigerian English accents to the Open ASR Leaderboard, increasing the diversity of accents evaluated. The splits contain conversational, spontaneous speech with punctuated, cased transcriptions and disfluencies.",
     "title": "Egyptian and Nigerian English added to Open ASR Leaderboard",
     "why_it_matters": "Adding these accents helps speech‑recognition models work better for speakers of Egyptian and Nigerian English, and the leaderboard gives developers a reliable benchmark for testing performance across accents."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-09T19:00:00+00:00",
+    "reason": "Official announcement of new distribution channel for ChatGPT Enterprise",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "status": "official",
+    "summary": "OpenAI has made ChatGPT Enterprise available through AWS Marketplace, letting organizations discover, buy, and manage the product using their existing AWS purchasing and billing relationship. The same models and features are offered, and eligible customers can also access ChatGPT for Healthcare and Financial Services via AWS.",
+    "title": "ChatGPT Enterprise launches on AWS Marketplace",
+    "why_it_matters": "It makes it easier for companies that already use AWS to add ChatGPT Enterprise to their workflows and pay through their existing AWS accounts."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-09T08:00:00+00:00",
+    "reason": "Article reports new product performance and features",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/coderabbit-codex-daybreak",
+    "status": "official",
+    "summary": "CodeRabbit uses OpenAI’s GPT‑4, o1, o3 and Codex to review and ship code. The platform, used by over 20,000 organizations, claims to have shipped 20 times more software in six months without adding engineers. It also adds security checks with Daybreak and offers a Slack bot for incident triage.",
+    "title": "CodeRabbit boosts software delivery 20x with OpenAI models",
+    "why_it_matters": "It shows how AI can dramatically speed up software development and reduce engineering costs, giving teams more capacity to deliver features quickly."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-09T13:00:00+00:00",
+    "reason": "OpenAI announced a new safety system",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/control-room",
+    "status": "official",
+    "summary": "OpenAI has built Control Room, a central system that tracks model workloads across its research infrastructure and can halt them within 35 seconds when safety or security concerns arise. It connects every research inference job, checks with the model engine before each token is generated, and works with monitoring systems to stop problematic jobs. The system is already deployed in research and is designed to remain operational even if other systems fail.",
+    "title": "OpenAI launches Control Room, a system to stop model workloads quickly",
+    "why_it_matters": "It gives researchers a fast way to stop dangerous or misaligned model behavior, improving safety for people who use or study AI."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-09T17:24:26+00:00",
+    "reason": "The article reports a new security issue with Claude Code that could expose secrets on GitHub.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+    "status": "reported",
+    "summary": "AI security researchers at Apiiro found that Claude Code’s local settings file can be uploaded to public GitHub repositories, exposing thousands of secrets such as database passwords, API tokens, and root logins. The leak occurs because the tool stores user approvals for automated shell commands in a settings file that is sometimes committed to the repo. Over 100,000 uploads were found, with about 1,100 containing sensitive data. Even after removal, secrets can remain in forks.",
+    "title": "Claude Code settings files can expose secrets on public GitHub repositories",
+    "why_it_matters": "Users of Claude Code may unintentionally publish sensitive credentials to public code repositories, creating a security risk that can persist if forks are not cleaned up."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-09T15:05:57+00:00",
+    "reason": "A new synthetic dataset for Japanese financial AI was released.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+    "status": "official",
+    "summary": "NVIDIA and Elith have released Nemotron-Personas-Finance-Japan, a synthetic dataset of 9 million Japanese personas that includes financial and demographic details. The dataset is built from Japan’s official statistics and household finance data using NVIDIA’s NeMo synthetic data tools, and it is available under a CC BY 4.0 license for commercial use.",
+    "title": "NVIDIA and Elith Release Nemotron-Personas-Finance-Japan, a Large Synthetic Dataset of Japanese Financial Personas",
+    "why_it_matters": "It lets Japanese developers train and test finance‑related AI models without using real customer data, helping create safer and more privacy‑respecting applications."
   }
 ]
