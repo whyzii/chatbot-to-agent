@@ -2088,5 +2088,17 @@
     "summary": "NVIDIA and Elith have released Nemotron-Personas-Finance-Japan, a synthetic dataset of 9 million Japanese personas that includes financial and demographic details. The dataset is built from Japan’s official statistics and household finance data using NVIDIA’s NeMo synthetic data tools, and it is available under a CC BY 4.0 license for commercial use.",
     "title": "NVIDIA and Elith Release Nemotron-Personas-Finance-Japan, a Large Synthetic Dataset of Japanese Financial Personas",
     "why_it_matters": "It lets Japanese developers train and test finance‑related AI models without using real customer data, helping create safer and more privacy‑respecting applications."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-09T08:00:00+00:00",
+    "reason": "Real product launch with measurable impact",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/kuken",
+    "status": "official",
+    "summary": "Kuken Industries built a search app with the OpenAI API that cuts the time to find a replacement part drawing from almost an hour to 4.5 minutes, saving about 90% of the yearly search time.",
+    "title": "Kuken Industries uses OpenAI API to speed up drawing searches",
+    "why_it_matters": "Faster searches let engineers focus on design and learning, cut printing costs, and help new engineers work independently."
   }
 ]
