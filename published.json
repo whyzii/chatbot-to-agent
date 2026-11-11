@@ -2100,5 +2100,65 @@
     "summary": "Kuken Industries built a search app with the OpenAI API that cuts the time to find a replacement part drawing from almost an hour to 4.5 minutes, saving about 90% of the yearly search time.",
     "title": "Kuken Industries uses OpenAI API to speed up drawing searches",
     "why_it_matters": "Faster searches let engineers focus on design and learning, cut printing costs, and help new engineers work independently."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-11T05:01:16+00:00",
+    "reason": "New on-device assistant model announced",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/qvac/botpsy",
+    "status": "official",
+    "summary": "Tether AI Research released BotPsy, a 0.8‑billion‑parameter model built on Qwen3.5‑0.8B. It is designed for function‑calling and agentic workflows, can run locally on a device, and outperforms larger models on several tool‑use and agentic benchmarks.",
+    "title": "BotPsy: Tiny 0.8B-parameter AI assistant for on-device use",
+    "why_it_matters": "Small, on‑device models cut costs and keep user data private while still handling many everyday tasks, making advanced AI more accessible to developers and users."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-10T16:03:47+00:00",
+    "reason": "Official DeepMind announcement of new Gemini 4 Carbon model",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+    "status": "official",
+    "summary": "DeepMind has made its Gemini 4 Carbon model available to developers, enterprises, scientists, and consumers. The model is designed for high‑level tasks such as complex coding, scientific reasoning, and cybersecurity, and it performs well on independent benchmarks while costing less per task than competing models. It can be accessed through the API, Google AI Studio, and other Google AI products.",
+    "title": "Gemini 4 Carbon released to developers and enterprises",
+    "why_it_matters": "The model offers advanced AI capabilities for tasks that need deep reasoning, such as software engineering, cybersecurity, and scientific research, and it is cheaper per task than many other options."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-10T15:00:39+00:00",
+    "reason": "New model release with official announcement",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+    "status": "official",
+    "summary": "DeepMind released Gemini Robotics 2.5, a robotic AI that can perform many tasks with higher success and speed than before. The update was tested in Mercedes‑Benz factories and on Apptronik’s Apollo 2 robot, achieving up to 96% success on parts assembly. DeepMind also introduced an open‑source safety benchmark called ASIMOV‑jailbreak to test robot safety.",
+    "title": "DeepMind launches Gemini Robotics 2.5 and new safety benchmark",
+    "why_it_matters": "Better robotic AI means factories could use robots more reliably and safely. The safety benchmark helps developers check that robots act responsibly."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-10T12:02:28+00:00",
+    "reason": "Official DeepMind announcement of AlphaProof Code, a new AI framework for formal verification",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "status": "official",
+    "summary": "DeepMind researchers introduced AlphaProof Code, a multi‑LLM agentic framework that guided AI agents to mathematically prove key security properties of the Signal protocol’s compiled code. The system generated over six million lines of Lean proofs in four weeks, and it could detect known bugs. The verification artifacts are open‑source.",
+    "title": "DeepMind releases AlphaProof Code, an AI framework that formally verifies Signal’s cryptographic code",
+    "why_it_matters": "It shows AI can provide rigorous security guarantees for widely used communication software, reducing the risk of hidden vulnerabilities and paving the way for safer critical systems."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-10T13:00:00+00:00",
+    "reason": "Official announcement of a new AI tool for healthcare",
+    "source": "Google AI",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+    "status": "official",
+    "summary": "Google Cloud announced Gemini for healthcare, an AI platform that integrates clinical, operational, and administrative data to automate complex workflows. It connects electronic health records, billing systems, clinical guidelines, and Medicare data to reduce paperwork and enable coordinated action. The preview is available with partners such as HCA Healthcare, Highmark Health, and Northwell Health.",
+    "title": "Google Cloud launches Gemini for healthcare",
+    "why_it_matters": "It can save clinicians up to 28 hours a week of paperwork, easing burnout and freeing time for patient care."
   }
 ]
