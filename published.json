@@ -2160,5 +2160,53 @@
     "summary": "Google Cloud announced Gemini for healthcare, an AI platform that integrates clinical, operational, and administrative data to automate complex workflows. It connects electronic health records, billing systems, clinical guidelines, and Medicare data to reduce paperwork and enable coordinated action. The preview is available with partners such as HCA Healthcare, Highmark Health, and Northwell Health.",
     "title": "Google Cloud launches Gemini for healthcare",
     "why_it_matters": "It can save clinicians up to 28 hours a week of paperwork, easing burnout and freeing time for patient care."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-11-11T18:16:40+00:00",
+    "reason": "Real investment news from TSMC",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+    "status": "official",
+    "summary": "Taiwan’s top chipmaker TSMC has approved a $1 billion investment, split evenly between preferred shares of OpenAI and common shares of Anthropic. The deal gives TSMC direct stakes in two leading AI developers while it continues to supply chips for AI data centers and consumer devices.",
+    "title": "TSMC to invest $1B in Anthropic and OpenAI",
+    "why_it_matters": "The investment shows major hardware makers backing AI software firms, which could strengthen the AI supply chain and signal confidence in the industry’s growth."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-11T18:00:00+00:00",
+    "reason": "Official announcement of a new API and model",
+    "source": "Google AI",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "status": "official",
+    "summary": "Google AI announced the Gemini Decisions API, a new endpoint that uses the Gemini Decision 1 model to make fast, calibrated decisions on multimodal inputs. The API can handle up to 1,000 questions per request across text, images, audio, video, and PDFs, returning probabilities and confidence scores in 150‑250 ms with low cost. It is designed for tasks like tool selection, policy checks, model routing, and context grading.",
+    "title": "Google AI releases Gemini Decisions API for fast multimodal decisions",
+    "why_it_matters": "Developers can add quick, low‑latency decision logic to their applications without training custom classifiers, saving time and money."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-11T15:00:15+00:00",
+    "reason": "New AI model announced by DeepMind",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "status": "official",
+    "summary": "Google DeepMind released AlphaGenome 2, a model that predicts how DNA changes influence gene activity in specific human cell types. It uses over 100 million single‑cell profiles and can identify twice as many disease‑related variants as the previous version. The model is available for non‑commercial research via an API.",
+    "title": "AlphaGenome 2 predicts DNA variant effects in individual cell types",
+    "why_it_matters": "Scientists can now pinpoint which DNA changes matter in the exact cells that cause disease, speeding up discovery of new treatments."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-11T14:08:57+00:00",
+    "reason": "Real news about DeepMind's AI verification of Signal protocol",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+    "status": "reported",
+    "summary": "Google DeepMind researchers used its new AI framework AlphaProof Code to formally verify key cryptographic guarantees of the Signal messaging protocol. The work, completed in four weeks, found no new vulnerabilities in the parts examined and confirmed known issues in older versions. DeepMind released the specification and proof to help other formal verification efforts.",
+    "title": "DeepMind uses AI to mathematically verify parts of Signal's encryption",
+    "why_it_matters": "It shows AI can help check the safety of widely used encryption, giving more confidence in secure communications. The approach could eventually make it easier to verify large software systems for security."
   }
 ]
