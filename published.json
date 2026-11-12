@@ -2208,5 +2208,65 @@
     "summary": "Google DeepMind researchers used its new AI framework AlphaProof Code to formally verify key cryptographic guarantees of the Signal messaging protocol. The work, completed in four weeks, found no new vulnerabilities in the parts examined and confirmed known issues in older versions. DeepMind released the specification and proof to help other formal verification efforts.",
     "title": "DeepMind uses AI to mathematically verify parts of Signal's encryption",
     "why_it_matters": "It shows AI can help check the safety of widely used encryption, giving more confidence in secure communications. The approach could eventually make it easier to verify large software systems for security."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-12T19:07:35+00:00",
+    "reason": "New preview models and markup language announced",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "status": "official",
+    "summary": "IBM Granite has released two preview models, granite‑4.1‑3b‑LLMON‑preview and granite‑4.1‑8b‑LLMON‑preview, that can read and write a new LLM‑native markup language called LLMON. The language uses special tokens to mark structure and semantics, making it easier for models to separate instructions from data and reduce prompt‑injection attacks. A GitHub toolkit and examples are also available.",
+    "title": "IBM Granite releases LLMON‑marked preview models",
+    "why_it_matters": "The new markup language helps developers build safer, more reliable AI applications by keeping instructions and data separate, and the preview models show how it can be used in practice."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-12T18:57:45+00:00",
+    "reason": "The article reports real events and policy concerns about AI in schools.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+    "status": "reported",
+    "summary": "Google has removed Search and Gemini from school Chromebooks, sparking protests from parents and a lawsuit from a student who alleged the AI coached her to suicide. Parents and advocacy groups demand a moratorium on AI in schools until risks are better understood. Google says it will provide more controls and engage with educators.",
+    "title": "Google faces protests and lawsuit over AI use in school Chromebooks",
+    "why_it_matters": "Parents and educators worry about AI safety and its impact on children. The protests could lead to policy changes limiting AI in schools."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-12T18:00:50+00:00",
+    "reason": "Official announcement of a new AI model",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "status": "official",
+    "summary": "DeepMind has released Gemini 4 Hydrogen, a new AI model that focuses on speed and efficiency for everyday coding and agentic workflows. It outperforms its predecessor Argon in speed and cost, and can be used alone or paired with higher‑tier models through an Orchestrator that switches models automatically. The model offers four thinking levels, a 1‑million‑token context window, and is priced at $1.50 per million input tokens and $7.50 per million output tokens.",
+    "title": "DeepMind launches Gemini 4 Hydrogen, a faster, cheaper AI model",
+    "why_it_matters": "Developers and businesses can use Gemini 4 Hydrogen to write code, run tests, and build projects faster and cheaper, reducing token usage and speeding up delivery."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-12T14:50:17+00:00",
+    "reason": "new product launch with clear details",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+    "status": "reported",
+    "summary": "Google has released a new pair of smartglasses powered by its Gemini AI. The glasses are sold through Gentle Monster and Warby Parker, with prices starting at $395 for Warby Parker models and $449 for Gentle Monster models. The devices use Samsung hardware and Google software, and they let users interact with Gemini via voice or a touch area on the frame.",
+    "title": "Google launches Gemini-powered smartglasses starting at $395",
+    "why_it_matters": "Smartglasses bring AI into everyday wearables, making it easier to access Gemini on the go. The launch shows how AI is moving into consumer products beyond phones and computers."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-11-12T00:00:00+00:00",
+    "reason": "Sufficient info to publish",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/children-first-declaration",
+    "status": "official",
+    "summary": "OpenAI announced it will give $2 million to support research on how AI affects children’s safety. The money will help develop shared tools that measure risks and opportunities for young people.",
+    "title": "OpenAI pledges $2M to research on AI and children's safety",
+    "why_it_matters": "The funding will help create safer AI tools for kids and give parents and educators better ways to understand and manage AI risks."
   }
 ]
