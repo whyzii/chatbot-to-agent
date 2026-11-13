@@ -2268,5 +2268,29 @@
     "summary": "OpenAI announced it will give $2 million to support research on how AI affects children’s safety. The money will help develop shared tools that measure risks and opportunities for young people.",
     "title": "OpenAI pledges $2M to research on AI and children's safety",
     "why_it_matters": "The funding will help create safer AI tools for kids and give parents and educators better ways to understand and manage AI risks."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-12T22:28:47+00:00",
+    "reason": "The article reports an official FAA expansion of its AI system SMART to all airspace centers, a new tool deployment.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+    "status": "official",
+    "summary": "The FAA has rolled out its SMART AI advisory system to all 22 air traffic centers nationwide. SMART uses weather, flight paths, traffic flow and staffing data to suggest routing and scheduling, and has already rerouted 180 flights, saving about 10 minutes and 80 gallons of fuel per flight. Human FAA specialists still validate the recommendations before they reach controllers.",
+    "title": "FAA expands AI tool to manage air traffic across US airspace",
+    "why_it_matters": "By using AI to plan routes and schedules, the system can cut delays and fuel use, making flights faster and cheaper for passengers."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-11T16:00:00+00:00",
+    "reason": "New collaborative tool announced by Google AI",
+    "source": "Google AI",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+    "status": "official",
+    "summary": "Google AI introduced Tabletop, a new experiment that lets groups build and edit shared spaces in real time. Users can add links, files, and ideas, then use prompts or templates to create interactive itineraries, polls, expense splitters, and brackets. The tool is available in the U.S. for users 18+ via a waitlist.",
+    "title": "Google launches Tabletop, a collaborative planning tool",
+    "why_it_matters": "Tabletop makes group planning easier by letting everyone work together in one place, similar to a Google Doc but with built‑in templates for common tasks. It could save time and reduce confusion for families, teams, and event organizers."
   }
 ]
