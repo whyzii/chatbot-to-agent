@@ -2304,5 +2304,29 @@
     "summary": "Google has rolled out Gemini 4 Hydrogen to its Search engine worldwide. The new model improves understanding of complex queries, expands link suggestions, and adds more visual and structured responses. It works in all supported languages and supports deeper instruction following and tool calling.",
     "title": "Google Search upgrades to Gemini 4 Hydrogen",
     "why_it_matters": "Users will get clearer, more detailed answers and better visual information when searching, making everyday web searches faster and more helpful."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-13T15:00:00+00:00",
+    "reason": "Article announces a new product, enough info to summarize",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "status": "official",
+    "summary": "OpenAI introduced the ChatGPT Wallet, a secure method that lets agents in ChatGPT Work, Codex, and other services complete purchases with user approval and existing card protections.",
+    "title": "OpenAI launches ChatGPT Wallet for secure in-app purchases",
+    "why_it_matters": "It lets users buy things safely inside ChatGPT without leaving the chat, making the experience smoother and safer."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-13T14:05:22+00:00",
+    "reason": "Official release of a new version of a widely used AI inference library",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "status": "official",
+    "summary": "Hugging Face announced the release of llama.cpp v1.0.0 and its tensor library ggml v1.0.0. The update provides a stable C/C++ API, expanded backend support for many hardware platforms, and new distribution channels such as Docker, Homebrew, and conda-forge.",
+    "title": "llama.cpp releases version 1.0.0, boosting local AI inference",
+    "why_it_matters": "The release makes it easier for developers to run large language models locally, improving privacy and reducing reliance on cloud services."
   }
 ]
