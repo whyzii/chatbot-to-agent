@@ -2292,5 +2292,17 @@
     "summary": "Google AI introduced Tabletop, a new experiment that lets groups build and edit shared spaces in real time. Users can add links, files, and ideas, then use prompts or templates to create interactive itineraries, polls, expense splitters, and brackets. The tool is available in the U.S. for users 18+ via a waitlist.",
     "title": "Google launches Tabletop, a collaborative planning tool",
     "why_it_matters": "Tabletop makes group planning easier by letting everyone work together in one place, similar to a Google Doc but with built‑in templates for common tasks. It could save time and reduce confusion for families, teams, and event organizers."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-12T18:00:00+00:00",
+    "reason": "Official announcement of Gemini 4 Hydrogen upgrade to Google Search",
+    "source": "Google AI",
+    "source_url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "status": "official",
+    "summary": "Google has rolled out Gemini 4 Hydrogen to its Search engine worldwide. The new model improves understanding of complex queries, expands link suggestions, and adds more visual and structured responses. It works in all supported languages and supports deeper instruction following and tool calling.",
+    "title": "Google Search upgrades to Gemini 4 Hydrogen",
+    "why_it_matters": "Users will get clearer, more detailed answers and better visual information when searching, making everyday web searches faster and more helpful."
   }
 ]
