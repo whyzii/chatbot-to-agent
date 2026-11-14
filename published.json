@@ -2352,5 +2352,17 @@
     "summary": "Shield uses OpenAI’s technology to let its Forge agents navigate legacy portals, so technicians can focus on tasks that need human judgment.",
     "title": "Shield uses OpenAI to help IT technicians hand off legacy portal work",
     "why_it_matters": "It shows how AI can streamline IT support, saving time and reducing manual work for technicians."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-12T20:00:00+00:00",
+    "reason": "Customer story with new product feature",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/business/customer-stories/amplitude",
+    "status": "official",
+    "summary": "Amplitude built its product agent Wave on OpenAI models. Wave helps teams decide what to build, assists with coding, and measures the impact of changes. The company says it can ship product improvements in 1–2 days.",
+    "title": "Amplitude uses OpenAI models to speed product releases",
+    "why_it_matters": "It shows how AI can accelerate product development for businesses."
   }
 ]
