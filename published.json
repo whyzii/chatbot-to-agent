@@ -2328,5 +2328,29 @@
     "summary": "Hugging Face announced the release of llama.cpp v1.0.0 and its tensor library ggml v1.0.0. The update provides a stable C/C++ API, expanded backend support for many hardware platforms, and new distribution channels such as Docker, Homebrew, and conda-forge.",
     "title": "llama.cpp releases version 1.0.0, boosting local AI inference",
     "why_it_matters": "The release makes it easier for developers to run large language models locally, improving privacy and reducing reliance on cloud services."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-13T17:02:35+00:00",
+    "reason": "The article announces a new benchmark for AI assistants, a research contribution.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/allenai/xybench",
+    "status": "official",
+    "summary": "AllenAI released XYBench, a set of over 8,000 real‑world questions that check whether AI assistants can spot when a user’s request is based on a misconception and guide them toward the real goal. The benchmark was awarded Best Resource Paper at EMNLP 2026 and evaluates models on pragmatic solution, emphasis, and misconception identification.",
+    "title": "XYBench: A benchmark that tests AI assistants on mistaken assumptions",
+    "why_it_matters": "It shows how well current AI assistants can help people who ask the wrong question, a common problem in everyday use. Better handling of misconceptions could make assistants more useful and trustworthy."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-13T08:00:00+00:00",
+    "reason": "Customer story with concrete result",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/business/customer-stories/shield",
+    "status": "official",
+    "summary": "Shield uses OpenAI’s technology to let its Forge agents navigate legacy portals, so technicians can focus on tasks that need human judgment.",
+    "title": "Shield uses OpenAI to help IT technicians hand off legacy portal work",
+    "why_it_matters": "It shows how AI can streamline IT support, saving time and reducing manual work for technicians."
   }
 ]
