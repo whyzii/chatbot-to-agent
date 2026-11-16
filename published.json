@@ -2364,5 +2364,60 @@
     "summary": "Amplitude built its product agent Wave on OpenAI models. Wave helps teams decide what to build, assists with coding, and measures the impact of changes. The company says it can ship product improvements in 1–2 days.",
     "title": "Amplitude uses OpenAI models to speed product releases",
     "why_it_matters": "It shows how AI can accelerate product development for businesses."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-16T19:10:09+00:00",
+    "reason": "Enough detail to summarize policy change",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+    "status": "official",
+    "summary": "The U.S. Commerce Department announced new export‑control rules that close a loophole allowing foreign data centers to rent high‑end AI chips. Companies in countries seen as high‑risk must now obtain licenses and submit detailed reports before shipping advanced chips. The rule takes effect 90 days after publication.",
+    "title": "US tightens rules to block China’s remote access to AI chips",
+    "why_it_matters": "It limits China’s ability to use U.S. chip technology for AI training that could support military or intelligence activities, affecting national security and global tech competition."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-16T17:00:00+00:00",
+    "reason": "Article announces new tools and guidance to fight online child sexual abuse",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/strengthening-online-child-safety",
+    "status": "official",
+    "summary": "OpenAI announced new tools, practical guidance, and partnerships to help prevent, detect, and respond to online child sexual exploitation and abuse.",
+    "title": "OpenAI launches new tools and guidance to fight online child sexual abuse",
+    "why_it_matters": "These measures aim to protect children from online predators and improve safety for families and communities."
+  },
+  {
+    "decision": "needs_review",
+    "reason": "Article text not available",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "title": "Advancing computer-use agents for healthcare teams"
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-16T14:00:00+00:00",
+    "reason": "New holiday travel features announced by Google AI",
+    "source": "Google AI",
+    "source_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+    "status": "official",
+    "summary": "Google Maps’ Ask feature now lets users build step‑by‑step itineraries, get real‑time route details, and book local appointments. It also searches saved lists for available spots and shares plans via Google Docs or chat. The updates roll out on Android and iOS and expand Ask Maps to 30 European countries, adding more than 200 regions worldwide.",
+    "title": "Google Maps adds holiday travel and appointment features",
+    "why_it_matters": "The new tools help people plan holiday trips, find open appointments, and manage to‑do lists quickly, reducing holiday stress."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-15T22:00:01+00:00",
+    "reason": "Enough info to publish",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "status": "official",
+    "summary": "OpenAI researchers used GPT‑6 Astra to develop a nonperturbative lattice formulation of the Standard Model, turning the idea into a detailed proof.",
+    "title": "OpenAI explores lattice definition of the Standard Model",
+    "why_it_matters": "A lattice formulation lets physicists simulate the Standard Model on a computer, which could deepen our understanding of fundamental particles and forces."
   }
 ]
