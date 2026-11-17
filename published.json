@@ -2419,5 +2419,53 @@
     "summary": "OpenAI researchers used GPT‑6 Astra to develop a nonperturbative lattice formulation of the Standard Model, turning the idea into a detailed proof.",
     "title": "OpenAI explores lattice definition of the Standard Model",
     "why_it_matters": "A lattice formulation lets physicists simulate the Standard Model on a computer, which could deepen our understanding of fundamental particles and forces."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-16T17:00:00+00:00",
+    "reason": "Clear official announcement of expanded free access to ChatGPT for researchers",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "status": "official",
+    "summary": "OpenAI announced it will expand its ChatGPT for Academic Researchers program, giving 200,000 researchers worldwide free access to its frontier models.",
+    "title": "OpenAI expands free ChatGPT access for academic researchers",
+    "why_it_matters": "Researchers can use advanced AI tools without cost, which can speed up scientific discovery."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-16T08:00:00+00:00",
+    "reason": "Short summary provides clear info about new safety assessment activity",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "status": "official",
+    "summary": "OpenAI has started embedded assessments with Apollo Research, METR, Transluce, and Goodfire to independently evaluate its models’ alignment, safeguards, and monitoring systems.",
+    "title": "OpenAI launches embedded assessments with external partners",
+    "why_it_matters": "It shows OpenAI is actively testing and improving the safety and alignment of its AI systems, giving users more confidence in the technology."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-16T00:00:00+00:00",
+    "reason": "Official announcement of a new partnership and routing feature",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/openrouter",
+    "status": "official",
+    "summary": "Hugging Face has teamed with OpenRouter to route requests for open-weight models across more than 80 providers. The new routing chooses the best provider by price, speed, and reliability, and retries on failure, all while keeping the same API and code. This lets users run any open-weight model on the Hub with a single Hugging Face token.",
+    "title": "Hugging Face partners with OpenRouter to simplify running open-weight models",
+    "why_it_matters": "Users can run open-weight models more reliably and cheaply, without managing multiple provider accounts. The partnership also improves performance and reduces errors for developers and businesses."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-15T22:00:00+00:00",
+    "reason": "New product announced by OpenAI",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/our-new-blog-for-science",
+    "status": "official",
+    "summary": "OpenAI has started a new blog that will publish scientific research, practical methods, and stories from researchers who use AI to push science forward.",
+    "title": "OpenAI launches a new science blog",
+    "why_it_matters": "It gives scientists and curious people a place to read about AI in science, making advanced research more accessible."
   }
 ]
