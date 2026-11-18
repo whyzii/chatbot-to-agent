@@ -2503,5 +2503,53 @@
     "summary": "OpenAI has teamed up with the Chilean government to help the country adopt AI responsibly. The partnership will build skills in the public sector and support local startups in creating AI applications.",
     "title": "OpenAI partners with Chile government to promote responsible AI",
     "why_it_matters": "It shows how AI companies can work with governments to grow local tech ecosystems and ensure AI is used safely."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-18T00:27:29+00:00",
+    "reason": "Official announcement of new Copilot features",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+    "status": "official",
+    "summary": "At its Ignite keynote, Microsoft CEO Satya Nadella announced that Copilot will now host Word, Excel and PowerPoint, making the familiar Office apps run inside the Copilot agent. Copilot is positioned as the new operating system for work, with autonomous agents that can pull context from emails, calendars and chats to create documents, spreadsheets and presentations. The rollout also includes Copilot Autopilot, a persistent agent for personal productivity, and Microsoft IQ, a platform that gives agents deeper insight into a company’s communications and relationships.",
+    "title": "Microsoft launches Copilot as the new OS for work, embedding Office apps",
+    "why_it_matters": "It changes how people use Office by turning the assistant into the main interface, potentially making work faster and more integrated. The move could reshape productivity tools and how businesses manage internal data."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-17T17:45:00+00:00",
+    "reason": "Enough info to publish a concise summary",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "status": "official",
+    "summary": "OpenAI announced GPT‑6.2 Astra and Sol, new versions of its GPT‑6.2 line. They offer better professional outputs, improved coding and computer use, and higher efficiency at lower cost for ChatGPT Work, Codex, and the API.",
+    "title": "OpenAI releases GPT‑6.2 Astra and Sol models",
+    "why_it_matters": "The upgrades could make AI tools faster and cheaper for businesses and developers, boosting productivity and reducing costs."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-17T08:00:00+00:00",
+    "reason": "Short but clear summary of a new sales plugin announced by OpenAI",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/introducing-chatgpt-for-sales",
+    "status": "official",
+    "summary": "OpenAI announced a new Sales plugin for ChatGPT, along with more than 30 partner plugins. The plugin lets users research prospects, prepare pitches, update their CRM, and advance deals directly within ChatGPT.",
+    "title": "OpenAI launches a new Sales plugin for ChatGPT",
+    "why_it_matters": "Sales teams can use AI to speed up research and outreach, saving time and improving deal flow."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-17T16:50:10+00:00",
+    "reason": "Article reports a new feature from Google that lets users keep chat history while opting out of training.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+    "status": "official",
+    "summary": "Google is adding new controls to its Gemini chatbot. Users can now separate chat history from training data, keeping their past conversations while choosing not to have future chats used to improve the model. The opt‑out applies only to future interactions; earlier data may still be used for up to three years.",
+    "title": "Google lets users keep Gemini chat history while opting out of AI training",
+    "why_it_matters": "It gives people more privacy control over their data while still using Gemini’s features."
   }
 ]
