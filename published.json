@@ -2551,5 +2551,65 @@
     "summary": "Google is adding new controls to its Gemini chatbot. Users can now separate chat history from training data, keeping their past conversations while choosing not to have future chats used to improve the model. The opt‑out applies only to future interactions; earlier data may still be used for up to three years.",
     "title": "Google lets users keep Gemini chat history while opting out of AI training",
     "why_it_matters": "It gives people more privacy control over their data while still using Gemini’s features."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-18T19:54:56+00:00",
+    "reason": "New model release with performance gains and open source availability",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+    "status": "official",
+    "summary": "RadixArk has released DaisyRose‑27B, a post‑trained version of Qwen3.8‑27B. The model was trained with reinforcement learning on 1,200 curated tasks over 18 days on 144 H200 GPUs, and it improves the Terminal‑Bench 4.1 pass@1 score from 5.6% to 12.0% while also scoring higher on other reasoning and coding benchmarks. The checkpoints are open‑source under Apache 2.0 and can be served with SGLang and DSpark.",
+    "title": "RadixArk releases DaisyRose‑27B, a post‑trained model that boosts reasoning performance",
+    "why_it_matters": "The release shows that efficient post‑training can significantly raise a model’s reasoning abilities while cutting training cost, offering developers a ready‑to‑use model that performs better on long‑horizon tasks."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-18T18:13:42+00:00",
+    "reason": "Official announcement of a new AI model with new features",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+    "status": "official",
+    "summary": "Google DeepMind has released Genie 4, a new interactive world model, to its Project Genie platform. The update adds real‑time audio, mid‑session prompts, longer generation times, and a new agent that helps users build worlds from natural‑language descriptions. It also expands the gallery with community creations and new tools for remixing.",
+    "title": "Genie 4 now available in Project Genie",
+    "why_it_matters": "Users can now create and explore more realistic, responsive virtual worlds directly in a browser, making it easier for creators, educators, and developers to prototype immersive experiences."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-18T17:00:00+00:00",
+    "reason": "Official announcement of Gemini app availability on lower‑memory Android devices",
+    "source": "Google AI",
+    "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "status": "official",
+    "summary": "Google AI released the Gemini app for Android Go devices, re‑architecting it to run on phones with less memory. Users can talk to Gemini Live, use the camera for notes, and create images with Nano Banana in over 45 languages.",
+    "title": "Gemini app now works on low‑memory Android phones",
+    "why_it_matters": "It brings AI assistance to hundreds of millions of people who use low‑memory phones, expanding access to AI tools for everyday tasks."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-18T00:00:00+00:00",
+    "reason": "Blog post describes new technique for running large MoE models locally",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/moe-expert-streaming",
+    "status": "official",
+    "summary": "The Hugging Face blog explains how to run a 180‑billion‑parameter MoE model, Qwen3.8‑Flash‑Next, on a laptop with 32 GB RAM by streaming the model’s experts from SSD. Using the Strata inference engine and a custom Transformers offloading setup, the author achieves token‑generation speeds within 6 % of Strata’s performance, while keeping most experts in RAM or on disk.",
+    "title": "Hugging Face shows how to run 180B MoE models locally by streaming experts from SSD",
+    "why_it_matters": "It lets developers and researchers run very large language models on consumer hardware, reducing the need for expensive cloud GPUs."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-18T00:00:00+00:00",
+    "reason": "New open‑source speech model released with multilingual support and strong performance",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/rumble-2-flash",
+    "status": "official",
+    "summary": "Hugging Face has open‑sourced Rumble‑2‑Flash, a 0.5‑billion‑parameter speech recognition model that supports more than 40 languages. It runs on standard Transformers or vLLM, can transcribe an hour of audio in about half a second, and matches the accuracy of a 30‑billion‑parameter NVIDIA model on a phone‑call benchmark. The model was distilled from a larger production model using on‑policy distillation.",
+    "title": "Rumble‑2‑Flash: 0.5‑Billion‑Parameter Speech Model for 40+ Languages",
+    "why_it_matters": "Developers can now add fast, multilingual speech recognition to apps without needing large hardware, making voice features more accessible."
   }
 ]
