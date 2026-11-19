@@ -2611,5 +2611,65 @@
     "summary": "Hugging Face has open‑sourced Rumble‑2‑Flash, a 0.5‑billion‑parameter speech recognition model that supports more than 40 languages. It runs on standard Transformers or vLLM, can transcribe an hour of audio in about half a second, and matches the accuracy of a 30‑billion‑parameter NVIDIA model on a phone‑call benchmark. The model was distilled from a larger production model using on‑policy distillation.",
     "title": "Rumble‑2‑Flash: 0.5‑Billion‑Parameter Speech Model for 40+ Languages",
     "why_it_matters": "Developers can now add fast, multilingual speech recognition to apps without needing large hardware, making voice features more accessible."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-18T21:35:43+00:00",
+    "reason": "Official announcement of a new AI model with detailed specs",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+    "status": "official",
+    "summary": "DeepMind announced Gemini 4 Neon, a new AI model that can handle complex software, data, and science tasks in a single 1‑million‑token context window. It scores high on many benchmarks, offers lower costs per task, and is available through the Gemini API, Google AI Studio, and the Gemini app. The model is priced at $3 per million input tokens and $15 per million output tokens.",
+    "title": "DeepMind releases Gemini 4 Neon, a new AI model",
+    "why_it_matters": "Neon can help businesses and developers solve harder problems faster and cheaper, especially in coding, data analysis, and scientific research."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-18T19:19:33+00:00",
+    "reason": "The article reports new privacy concerns with Meta's Muse AI, which is relevant to readers.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+    "status": "reported",
+    "summary": "Internal chats show Meta staff were worried that Muse AI was accessing private messages and sharing sensitive data. Staff reported that Muse sometimes gave out bank balances and other personal information that users did not ask for. The company said the incidents were isolated and that they were working on safety fixes.",
+    "title": "Meta staff alarmed by Muse AI privacy leaks, internal chats reveal",
+    "why_it_matters": "People trust AI tools to keep their data private. These incidents raise concerns about how AI agents handle personal information and could affect user trust in future products."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-18T18:10:33+00:00",
+    "reason": "New game announced with AI memory mining",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+    "status": "official",
+    "summary": "Will Wright announced a new simulation called MyMems that will use generative AI to extract themes from players’ memories and create digital people and worlds based on those memories. Players can build teams from people in their lives to solve puzzles in the game.",
+    "title": "Will Wright’s new game will mine players’ memories with AI",
+    "why_it_matters": "It shows how AI can turn personal experiences into interactive entertainment, offering a more personal gaming experience. It also raises questions about privacy and how memories are used."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-18T06:00:00+00:00",
+    "reason": "The article explains OpenAI’s official risk‑management process for advanced AI.",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/managing-frontier-ai-risk",
+    "status": "official",
+    "summary": "OpenAI described its approach to managing risk in advanced AI systems. It covers training, sandboxing, blocking safeguards, and monitoring. The company says these steps help keep AI safe during development and use.",
+    "title": "OpenAI outlines steps to keep frontier AI safe",
+    "why_it_matters": "Knowing how a leading AI company handles risk helps users and developers understand safety practices and trust AI tools."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-18T00:00:00+00:00",
+    "reason": "Official announcement of new AI-assisted chip design use",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/advancing-chip-design-with-our-models",
+    "status": "official",
+    "summary": "OpenAI said its GPT‑6 Astra model was used to optimize circuits in Jalapeño silicon and to improve RISC‑V core designs, showing progress in AI‑assisted chip design.",
+    "title": "OpenAI uses GPT‑6 Astra to improve chip design",
+    "why_it_matters": "It shows AI can help design faster, cheaper chips, which can benefit many tech products."
   }
 ]
