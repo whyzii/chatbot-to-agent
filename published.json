@@ -2671,5 +2671,41 @@
     "summary": "OpenAI said its GPT‑6 Astra model was used to optimize circuits in Jalapeño silicon and to improve RISC‑V core designs, showing progress in AI‑assisted chip design.",
     "title": "OpenAI uses GPT‑6 Astra to improve chip design",
     "why_it_matters": "It shows AI can help design faster, cheaper chips, which can benefit many tech products."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-19T18:00:00+00:00",
+    "reason": "Google AI announced a new feature in the Gemini API that lets developers defer tool schemas, improving efficiency.",
+    "source": "Google AI",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "status": "official",
+    "summary": "Google AI has added Tool Retrieval to the Gemini API, allowing agents to keep a large tool library in standby and load each tool’s parameter schema only when needed. By adding a tool_search tool and setting defer_loading:true on selected tools, the model can search for a tool, load its schema on demand, and call it—all in one request. The feature works with prefix caching, remote MCP servers, and does not add extra cost.",
+    "title": "Google AI launches Tool Retrieval in Gemini API",
+    "why_it_matters": "Developers can use many tools without inflating input tokens or latency, saving costs and improving performance when building AI agents."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-19T00:00:00+00:00",
+    "reason": "Official guide from OpenAI on deploying Daybreak Red",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/business/learn/deploying-daybreak-red",
+    "status": "official",
+    "summary": "OpenAI published a reference architecture that shows how to set up and monitor Daybreak Red for supervised security investigations, including safety controls and deployment steps.",
+    "title": "OpenAI releases guide for deploying Daybreak Red in security investigations",
+    "why_it_matters": "It helps developers and security teams use Daybreak Red safely and effectively."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-19T00:00:00+00:00",
+    "reason": "Short demo article from OpenAI about a new plugin",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/business/learn/codex-security-plugin-demo",
+    "status": "official",
+    "summary": "OpenAI showed a demo of its Codex Security Plugin, walking through the workflow from getting started to reviewing the results.",
+    "title": "OpenAI demos its new Codex Security Plugin",
+    "why_it_matters": "The plugin helps developers find and fix security issues in code, making software safer."
   }
 ]
