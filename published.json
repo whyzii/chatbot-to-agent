@@ -2791,5 +2791,17 @@
     "summary": "Four high‑school students sued Baltimore County Public Schools and police after an AI gun‑detection system flagged a bag of Doritos as a gun. The system triggered a police response that forced the teens to be searched and handcuffed, even though no weapon was found. The lawsuit seeks to stop the system until better safeguards are in place.",
     "title": "Teen lawsuit over false AI gun alert in Baltimore school",
     "why_it_matters": "It shows how AI used in schools can cause real harm if it misfires. Parents and students need to know that false alarms can lead to police violence and legal rights can be challenged."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-20T00:00:00+00:00",
+    "reason": "Official announcement of a new benchmark for medicinal chemistry AI models",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/introducing-medchembench",
+    "status": "official",
+    "summary": "OpenAI introduced MedChemBench, a benchmark that evaluates AI models on tasks from medicinal chemistry. It tests whether models can read molecular structures, interpret experimental data, and predict properties and compound selection. The benchmark contains 99 problems drawn from 117 papers and 761 molecules.",
+    "title": "OpenAI launches MedChemBench to test AI on drug‑design reasoning",
+    "why_it_matters": "It gives researchers a way to measure how well AI can support drug discovery, potentially speeding up the design of safer, more effective medicines."
   }
 ]
