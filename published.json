@@ -2767,5 +2767,29 @@
     "summary": "OpenAI announced new measures to prevent adversarial distillation, where attackers copy a model’s capabilities without its safeguards. The company added testing, classifiers, and API protections, and improved protection of protected reasoning in GPT‑6.2 models, cutting attack success from 54% to 0.2%.",
     "title": "OpenAI Strengthens Safeguards Against Adversarial Distillation",
     "why_it_matters": "It reduces the risk that malicious actors can create powerful models that bypass safety controls, protecting users from harmful or illegal uses of AI."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-20T21:47:10+00:00",
+    "reason": "The article reports a confirmed change in Meta’s net‑zero target based on its own sustainability report.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+    "status": "official",
+    "summary": "Meta’s latest sustainability report says the company is re‑evaluating its 2030 net‑zero emissions target after a record rise in greenhouse‑gas emissions from its AI data centers. Emissions grew from 15.6 million to 21.7 million metric tonnes of CO₂‑equivalent between 2024 and 2025, driven largely by new data‑center hardware. Meta will adjust timelines and interim milestones to reflect the faster‑than‑expected demand for AI infrastructure.",
+    "title": "Meta reconsiders 2030 net‑zero goal amid record AI data center emissions",
+    "why_it_matters": "The shift signals that AI‑driven data centers are a major climate challenge and that even large tech firms may need to change their sustainability plans to keep emissions in check."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-19T20:19:28+00:00",
+    "reason": "article reports a lawsuit about AI gun detection misuse",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+    "status": "reported",
+    "summary": "Four high‑school students sued Baltimore County Public Schools and police after an AI gun‑detection system flagged a bag of Doritos as a gun. The system triggered a police response that forced the teens to be searched and handcuffed, even though no weapon was found. The lawsuit seeks to stop the system until better safeguards are in place.",
+    "title": "Teen lawsuit over false AI gun alert in Baltimore school",
+    "why_it_matters": "It shows how AI used in schools can cause real harm if it misfires. Parents and students need to know that false alarms can lead to police violence and legal rights can be challenged."
   }
 ]
