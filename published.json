@@ -2707,5 +2707,65 @@
     "summary": "OpenAI showed a demo of its Codex Security Plugin, walking through the workflow from getting started to reviewing the results.",
     "title": "OpenAI demos its new Codex Security Plugin",
     "why_it_matters": "The plugin helps developers find and fix security issues in code, making software safer."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-20T21:58:29+00:00",
+    "reason": "The article reports a confirmed product update from Google",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+    "status": "official",
+    "summary": "Google has updated its search homepage. The new design drops the old search button and adds an AI sidebar that lets users chat, generate images, analyze files, and brainstorm with Gemini. The change is live after a test period.",
+    "title": "Google removes search button and adds AI sidebar to search homepage",
+    "why_it_matters": "Users can start searches faster and use AI tools right from the homepage, showing Google’s shift toward an AI‑centric search experience."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-20T00:00:00+00:00",
+    "reason": "New model announced by Hugging Face",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/inkling2mini",
+    "status": "official",
+    "summary": "Hugging Face has launched Inkling 2 Mini, a looped transformer model with 24 decoder layers that effectively run 48 layer visits per token. The model uses a mixture‑of‑experts architecture with 128 experts per layer and supports up to 1 million‑token context, handling both text and images. It is designed for local deployment and performs comparably to larger models like Qwen 3.8 27B in benchmark tests.",
+    "title": "Hugging Face releases Inkling 2 Mini, a small multimodal transformer for local use",
+    "why_it_matters": "Users who want a powerful, multimodal AI that can run on their own hardware now have a compact option that still delivers strong performance."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-20T00:00:00+00:00",
+    "reason": "New product feature announced by Hugging Face",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+    "status": "official",
+    "summary": "Hugging Face announced a new recipe that trains a LoRA adapter with reinforcement learning inside an agent harness. The adapter improves accuracy and reduces token usage for models such as Qwen3.8‑27B on harnesses like Pi, OpenCode, and Hermes Agent. The adapters are available on the Hugging Face Hub and can be merged into a single super adapter that works across all three harnesses.",
+    "title": "Hugging Face releases harness adapters to boost model performance on specific agent tools",
+    "why_it_matters": "It lets users get better results from their favorite models on the tools they actually use, without retraining the whole model, saving cost and time."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-20T20:59:08+00:00",
+    "reason": "The article reports a new research study showing widespread AI supply‑chain data leaks.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+    "status": "reported",
+    "summary": "Researchers sent 2 million prompts, each with a unique secret, through a network of AI services. They found that several AI providers and resellers logged or stole the secrets, even when privacy flags like Zero Data Retention were set. The study shows that the AI inference marketplace can leak highly sensitive data.",
+    "title": "AI supply chain leaks revealed by 2 million canary experiment",
+    "why_it_matters": "Users of AI apps may unknowingly expose private keys or passwords. The findings point to a need for stronger security and transparency in the AI supply chain."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-20T10:00:00+00:00",
+    "reason": "Official OpenAI safety update on adversarial distillation",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/combatting-adversarial-distillation",
+    "status": "official",
+    "summary": "OpenAI announced new measures to prevent adversarial distillation, where attackers copy a model’s capabilities without its safeguards. The company added testing, classifiers, and API protections, and improved protection of protected reasoning in GPT‑6.2 models, cutting attack success from 54% to 0.2%.",
+    "title": "OpenAI Strengthens Safeguards Against Adversarial Distillation",
+    "why_it_matters": "It reduces the risk that malicious actors can create powerful models that bypass safety controls, protecting users from harmful or illegal uses of AI."
   }
 ]
