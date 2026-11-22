@@ -2803,5 +2803,17 @@
     "summary": "OpenAI introduced MedChemBench, a benchmark that evaluates AI models on tasks from medicinal chemistry. It tests whether models can read molecular structures, interpret experimental data, and predict properties and compound selection. The benchmark contains 99 problems drawn from 117 papers and 761 molecules.",
     "title": "OpenAI launches MedChemBench to test AI on drug‑design reasoning",
     "why_it_matters": "It gives researchers a way to measure how well AI can support drug discovery, potentially speeding up the design of safer, more effective medicines."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-22T00:00:00+00:00",
+    "reason": "Official OpenAI blog post with new transparency metric",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/perplexity-and-intelligence",
+    "status": "official",
+    "summary": "OpenAI published its internal perplexity measurements for its models, showing how lower perplexity correlates with emergent capabilities. The post argues that perplexity can serve as a shared metric for comparing model progress and informing safety standards.",
+    "title": "OpenAI Shares Internal Perplexity Metrics to Guide AI Safety",
+    "why_it_matters": "Providing a common benchmark helps the industry track AI progress and coordinate safety efforts, making it easier to assess when models reach new capabilities."
   }
 ]
