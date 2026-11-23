@@ -2815,5 +2815,17 @@
     "summary": "OpenAI published its internal perplexity measurements for its models, showing how lower perplexity correlates with emergent capabilities. The post argues that perplexity can serve as a shared metric for comparing model progress and informing safety standards.",
     "title": "OpenAI Shares Internal Perplexity Metrics to Guide AI Safety",
     "why_it_matters": "Providing a common benchmark helps the industry track AI progress and coordinate safety efforts, making it easier to assess when models reach new capabilities."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-23T12:00:00+00:00",
+    "reason": "New laptop with local AI capabilities",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+    "status": "reported",
+    "summary": "The Asus ProArt P16 is a new laptop that uses Nvidia’s RTX Spark N1X chip. It has up to 128 GB of unified memory and a 6,144‑core Blackwell GPU, giving it strong AI compute for local models. The review notes it can run multiple AI agents but costs up to $7,000.",
+    "title": "Asus ProArt P16 laptop brings local AI to the desktop with Nvidia RTX Spark",
+    "why_it_matters": "It shows that powerful local AI can be built into a consumer laptop, reducing reliance on cloud services. It may open up new possibilities for creators and professionals who need AI on the go."
   }
 ]
