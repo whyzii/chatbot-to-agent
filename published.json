@@ -2911,5 +2911,41 @@
     "summary": "Amazon said hackers used the open‑source AI penetration‑testing framework Cairn to locate and exploit a zero‑day in a medical imaging AI application on an East Asian university server. The attackers gave the agents a list of IP addresses and the goal of obtaining shell access; the agents quickly discovered the vulnerability and gained full control of the system.",
     "title": "Hackers used AI agents to find and exploit a zero‑day with minimal human input",
     "why_it_matters": "It shows that AI can automate attacks with little human guidance, increasing the speed and persistence of cyber threats. Defenders must prepare for such AI‑driven attacks."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-24T17:34:34+00:00",
+    "reason": "Real news about Tidal's policy change",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+    "status": "official",
+    "summary": "Tidal announced it will remove all 27 million tracks it has labeled as fully AI‑generated and will ban any music created entirely by AI. The deletion will take place on December 9, after the company found that 60 percent of new uploads were AI‑generated and that most AI tracks had no plays. The move follows Tidal’s July policy that required labeling and demonetizing AI music.",
+    "title": "Tidal to delete 27 million AI‑generated tracks and ban fully AI music",
+    "why_it_matters": "The ban means artists who rely on AI tools can still use them, but fully AI tracks will be removed, protecting human creators and their royalties. It also signals a broader industry push to regulate AI‑generated content on streaming platforms."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-24T13:00:00+00:00",
+    "reason": "The article reports a new OpenAI model with protein-design capabilities.",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "status": "official",
+    "summary": "OpenAI released GPT‑6, a family of models that can design new protein shapes and amino‑acid sequences using only reasoning and general‑purpose coding, without specialized biology tools. In tests with partner Onava, proteins built from GPT‑6 designs bound to five target molecules in the lab, and redesigned antibodies retained binding. The models also generate written reasoning and code that show they use physics, chemistry, and biology knowledge to guide design.",
+    "title": "OpenAI’s GPT‑6 can design proteins on its own",
+    "why_it_matters": "Protein design is key for creating new medicines, enzymes, and materials. A general‑purpose model that can design proteins quickly could speed discovery and lower the expertise needed to engineer proteins."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-24T11:00:00+00:00",
+    "reason": "The article reports a real, official use of OpenAI tools by amateur astronomers to find exoplanet candidates.",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "status": "official",
+    "summary": "Two amateur astronomers used OpenAI’s Codex and Astra to search public telescope data from Kepler and TESS. They identified several potential exoplanets, and professional astronomers have confirmed some of the signals. The work demonstrates how AI can aid citizen science in planet hunting.",
+    "title": "OpenAI tools help amateur astronomers spot new exoplanet candidates",
+    "why_it_matters": "It shows that AI tools can help non-experts discover new planets, expanding the search and engaging the public in science."
   }
 ]
