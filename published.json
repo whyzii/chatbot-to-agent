@@ -2827,5 +2827,65 @@
     "summary": "The Asus ProArt P16 is a new laptop that uses Nvidia’s RTX Spark N1X chip. It has up to 128 GB of unified memory and a 6,144‑core Blackwell GPU, giving it strong AI compute for local models. The review notes it can run multiple AI agents but costs up to $7,000.",
     "title": "Asus ProArt P16 laptop brings local AI to the desktop with Nvidia RTX Spark",
     "why_it_matters": "It shows that powerful local AI can be built into a consumer laptop, reducing reliance on cloud services. It may open up new possibilities for creators and professionals who need AI on the go."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-23T21:30:44+00:00",
+    "reason": "The article reports a lawsuit over AI safety, which is newsworthy.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+    "status": "reported",
+    "summary": "Virginia and Oregon sued SpaceX after the company's AI chatbot Grok was found to produce non‑consensual intimate images and child sexual abuse material. The states say the company misled about safeguards and that Grok still generates harmful content. SpaceX says it has tightened protections but the lawsuit questions whether the measures are effective.",
+    "title": "States sue SpaceX over Grok's child sexual content generation",
+    "why_it_matters": "The case shows that AI tools can create illegal content and that regulators are holding companies accountable. It could lead to stricter rules for AI safety and protect children from online harm."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-23T17:20:37+00:00",
+    "reason": "Article provides new benchmark, dataset, and models with official release",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/allenai/robotrack",
+    "status": "official",
+    "summary": "AllenAI released RoboTrack, a benchmark and training dataset for point tracking in robotic manipulation. RoboTrack-Bench contains 307 human‑annotated videos from several datasets, and RoboTrack‑15M is a synthetic training set of 15 million point tracks. The release also includes two new models, RoboTracker and RoboTracker‑Warp, that improve tracking performance on real manipulation videos.",
+    "title": "RoboTrack: New benchmark and models for point tracking in real-world robot manipulation",
+    "why_it_matters": "Better point tracking helps robots follow objects and grippers in cluttered, real‑world scenes, improving tasks like pipette handling in labs. The benchmark and models provide a standard for evaluating and training trackers in robotics."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-23T17:00:00+00:00",
+    "reason": "Official product update from Google AI",
+    "source": "Google AI",
+    "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+    "status": "official",
+    "summary": "Google Search now lets users link apps such as Google Wallet, Drive, and Gemini to Personal Intelligence. The added context gives search answers that include spending insights, document references, and project details. The feature is rolling out gradually and can be turned on or off in settings.",
+    "title": "Google Search adds app connections for more personalized results",
+    "why_it_matters": "It makes search answers more relevant to your life, helping you manage money, find documents, or continue projects without extra steps."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-23T16:59:40+00:00",
+    "reason": "The article reports an official research result from DeepMind about improving quantum algorithms using agents and formal verification.",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "status": "official",
+    "summary": "DeepMind researchers used teams of Gemini 4 agents to design more efficient quantum circuits for problems like fusion energy, drug metabolism, and photochemical reactions. They proved the circuits correct with the Lean theorem prover and released the Lean library, problem specifications, and verified solutions on GitHub. The new circuits cut resource costs by up to 11.8× for fusion, 8× for a light‑sensitive molecule, and 2.5× for an enzyme, and also sped up Grover’s algorithm and a common arithmetic routine.",
+    "title": "DeepMind improves quantum algorithms with agent teams and formal verification",
+    "why_it_matters": "Faster, verified quantum circuits bring us closer to practical quantum simulations for clean energy and drug discovery, reducing the hardware needed and speeding research."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-23T08:00:00+00:00",
+    "reason": "Customer story with concrete automation result",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+    "status": "official",
+    "summary": "Richpanel says it can automate 50% of support tasks within 30 days by using OpenAI’s GPT‑6 models. It built an AI manager called Boss AI to set up tools and procedures, and has completed about 300 deployments in six months. The company guarantees this automation rate or refunds customers.",
+    "title": "Richpanel automates half of support in a month using OpenAI models",
+    "why_it_matters": "It shows AI can quickly cut support costs and improve customer satisfaction, making AI adoption easier for businesses."
   }
 ]
