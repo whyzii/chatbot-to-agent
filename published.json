@@ -2887,5 +2887,29 @@
     "summary": "Richpanel says it can automate 50% of support tasks within 30 days by using OpenAI’s GPT‑6 models. It built an AI manager called Boss AI to set up tools and procedures, and has completed about 300 deployments in six months. The company guarantees this automation rate or refunds customers.",
     "title": "Richpanel automates half of support in a month using OpenAI models",
     "why_it_matters": "It shows AI can quickly cut support costs and improve customer satisfaction, making AI adoption easier for businesses."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-23T21:20:00+00:00",
+    "reason": "New open‑source runtime announced by OpenAI and Cisco",
+    "source": "OpenAI",
+    "source_url": "https://openai.com/index/introducing-shirudo",
+    "status": "official",
+    "summary": "OpenAI and Cisco have released Shirudo, an open‑source runtime that lets operators block vulnerable code paths on running Linux systems without restarting. Shirudo uses eBPF to add temporary shields that can be tested and approved before deployment, and it is signed and verified with a TPM for security. The project is open‑source under BSD 2‑Clause and is available for developers, security researchers, and operators to use and contribute to.",
+    "title": "OpenAI and Cisco launch Shirudo, an open‑source runtime that protects Linux systems while patches are pending",
+    "why_it_matters": "It gives teams a way to protect services from exploits while waiting for official patches, reducing downtime and keeping applications running safely."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-24T12:30:05+00:00",
+    "reason": "The article reports a real hacking incident involving AI agents, which is newsworthy.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+    "status": "official",
+    "summary": "Amazon said hackers used the open‑source AI penetration‑testing framework Cairn to locate and exploit a zero‑day in a medical imaging AI application on an East Asian university server. The attackers gave the agents a list of IP addresses and the goal of obtaining shell access; the agents quickly discovered the vulnerability and gained full control of the system.",
+    "title": "Hackers used AI agents to find and exploit a zero‑day with minimal human input",
+    "why_it_matters": "It shows that AI can automate attacks with little human guidance, increasing the speed and persistence of cyber threats. Defenders must prepare for such AI‑driven attacks."
   }
 ]
