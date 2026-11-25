@@ -2947,5 +2947,41 @@
     "summary": "Two amateur astronomers used OpenAI’s Codex and Astra to search public telescope data from Kepler and TESS. They identified several potential exoplanets, and professional astronomers have confirmed some of the signals. The work demonstrates how AI can aid citizen science in planet hunting.",
     "title": "OpenAI tools help amateur astronomers spot new exoplanet candidates",
     "why_it_matters": "It shows that AI tools can help non-experts discover new planets, expanding the search and engaging the public in science."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-25T18:52:55+00:00",
+    "reason": "The article reports a study on responsible use of AI agents in science, which is new research.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+    "status": "official",
+    "summary": "AllenAI interviewed 17 scientists about how AI agents can help with research tasks and what safeguards are needed. The study identified five trust dimensions—validation, privacy, objectivity, accountability, and transparency—and emphasized that researchers should decide which tasks agents take on and how they are evaluated. It also highlighted the need for guidelines and training to ensure AI tools support responsible science.",
+    "title": "Scientists outline responsibilities for AI agents in research",
+    "why_it_matters": "Researchers and developers using AI in labs need clear rules to keep experiments reliable, protect data, and maintain accountability. The findings help shape policies that keep science trustworthy while benefiting from AI automation."
+  },
+  {
+    "category": "Research",
+    "decision": "publish",
+    "published": "2026-11-25T12:00:28+00:00",
+    "reason": "The article reports new research on AI performance in theoretical physics, including a benchmark and results.",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+    "status": "reported",
+    "summary": "A team led by Professor Suvrat Raju created a benchmark of 50 hard physics problems and found that GPT‑6 Astra solved 49 of them. The benchmark was built from unpublished work of physicists and shows AI can handle most well‑defined calculations. The study also revealed the AI could spot subtle errors in human solutions.",
+    "title": "AI models solve most theoretical physics problems, new benchmark shows",
+    "why_it_matters": "It shows AI can speed up physics research by handling routine calculations, freeing scientists to focus on deeper questions. The results suggest AI is becoming a useful tool for theoretical physicists."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-25T10:22:09+00:00",
+    "reason": "Article describes a new voice assistant built with IBM Research's CUGA, a new product.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+    "status": "official",
+    "summary": "IBM Research released a small voice agent that lets farmers ask questions in Hindi, Tamil, Telugu, Gujarati, Marathi and other Indian languages. The agent converts speech to text, searches an English agricultural handbook, and answers in the original language, showing the source pages. It uses CUGA, an open‑source agent harness, and supports multiple speech providers.",
+    "title": "IBM Research builds a multilingual voice assistant for farmers using CUGA",
+    "why_it_matters": "It lets people who speak regional languages get reliable, grounded answers about farming without needing to read English text. The system shows how voice and multilingual retrieval can make AI useful for everyday tasks in low‑resource languages."
   }
 ]
