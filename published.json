@@ -3007,5 +3007,29 @@
     "summary": "Google announced that Gemini will be the official AI assistant partner for the Golden State Warriors and the 2026 WNBA champion Valkyries. The partnership will embed Gemini across the franchise, offering interactive game‑day features on the Chase Center videoboard and digital channels, and will also deploy custom AI agents to improve business and basketball operations. Golden State has used Google’s generative AI tools since 2019 and now expands the use of Gemini for both fans and staff.",
     "title": "Google partners with Golden State Warriors and Valkyries to bring Gemini AI to fans and operations",
     "why_it_matters": "Fans will get a more interactive experience during games, while the team can use AI to run operations more efficiently. The move shows how sports teams are adopting generative AI for fan engagement and internal productivity."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-26T11:3717+00:00",
+    "reason": "Publish because it introduces a new benchmark dashboard for llama.cpp on AMD hardware",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "status": "official",
+    "summary": "Hugging Face released a llama.cpp × AMD Benchmark dashboard that shows prompt processing (PP512) and text generation (TG128) throughput for different builds, models, and quantizations on AMD Ryzen and Radeon GPUs. The dashboard lets users compare hardware, model, and build options, view context‑scaling charts, and access the underlying public benchmark data.",
+    "title": "New benchmark dashboard lets users track llama.cpp performance on AMD hardware",
+    "why_it_matters": "It helps developers and researchers quickly see how local inference performance changes over time and choose the best model and build for their AMD hardware."
+  },
+  {
+    "category": "New models",
+    "decision": "publish",
+    "published": "2026-11-26T05:05:36+00:00",
+    "reason": "Official release of a new document model with open datasets and faster inference",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "status": "official",
+    "summary": "NVIDIA released Nemotron 3.5 Parse, a compact model that turns page images into structured data for retrieval‑augmented generation and agents. The release includes synthetic datasets for charts, tables, and multilingual OCR, a fine‑tuning recipe that improves accuracy, and a faster inference architecture with a DFlash2 speculator.",
+    "title": "NVIDIA releases Nemotron 3.5 Parse, a model that turns page images into structured data",
+    "why_it_matters": "Users who need to extract information from documents—such as finance analysts or legal teams—can automatically read tables and charts. The open datasets let developers train or adapt the model for their own document types."
   }
 ]
