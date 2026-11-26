@@ -2983,5 +2983,29 @@
     "summary": "IBM Research released a small voice agent that lets farmers ask questions in Hindi, Tamil, Telugu, Gujarati, Marathi and other Indian languages. The agent converts speech to text, searches an English agricultural handbook, and answers in the original language, showing the source pages. It uses CUGA, an open‑source agent harness, and supports multiple speech providers.",
     "title": "IBM Research builds a multilingual voice assistant for farmers using CUGA",
     "why_it_matters": "It lets people who speak regional languages get reliable, grounded answers about farming without needing to read English text. The system shows how voice and multilingual retrieval can make AI useful for everyday tasks in low‑resource languages."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-24T13:07:53+00:00",
+    "reason": "DeepMind announced a new tool for mass spectrometry analysis",
+    "source": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+    "status": "official",
+    "summary": "DeepMind released Mass Spec Skills for Google Antigravity, a set of domain skills that combine Gemini’s chemical reasoning with established mass‑spectrometry tools. The skills let users input a tandem mass spectrum and automatically run library searches, formula determination, and structure inference, producing a structured report for chemists to review. The tool works on both known and unknown molecules, speeding up the annotation of the vast majority of spectra that currently remain unlabelled.",
+    "title": "Mass Spec Skills for Google Antigravity helps scientists interpret mass spectra",
+    "why_it_matters": "It makes it easier for researchers to identify small molecules in complex samples, which can accelerate drug discovery, environmental monitoring, and other scientific studies."
+  },
+  {
+    "category": "Industry and funding",
+    "decision": "publish",
+    "published": "2026-11-24T16:00:00+00:00",
+    "reason": "New partnership announcement with a sports franchise",
+    "source": "Google AI",
+    "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+    "status": "official",
+    "summary": "Google announced that Gemini will be the official AI assistant partner for the Golden State Warriors and the 2026 WNBA champion Valkyries. The partnership will embed Gemini across the franchise, offering interactive game‑day features on the Chase Center videoboard and digital channels, and will also deploy custom AI agents to improve business and basketball operations. Golden State has used Google’s generative AI tools since 2019 and now expands the use of Gemini for both fans and staff.",
+    "title": "Google partners with Golden State Warriors and Valkyries to bring Gemini AI to fans and operations",
+    "why_it_matters": "Fans will get a more interactive experience during games, while the team can use AI to run operations more efficiently. The move shows how sports teams are adopting generative AI for fan engagement and internal productivity."
   }
 ]
