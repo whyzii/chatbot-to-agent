@@ -3043,5 +3043,17 @@
     "summary": "Amazon data centers were hit by military attacks for the first time in the Middle East, and Russia and Ukraine used drones to strike each other's data centers. A live discussion examined why cloud data centers are becoming military targets and how this affects cloud resilience.",
     "title": "Military attacks on data centers raise new security concerns",
     "why_it_matters": "Data centers host critical services; attacks could disrupt everyday life and national security."
+  },
+  {
+    "category": "Tools and products",
+    "decision": "publish",
+    "published": "2026-11-27T00:00:00+00:00",
+    "reason": "The article reports a new performance test of an existing model on new hardware, which is newsworthy for developers.",
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/blog/video-trainium3",
+    "status": "official",
+    "summary": "Hugging Face tested the LTX‑2.5 video‑generation model on an AWS Trainium3 machine. The model produced a 10‑second video with sound in 22‑23 seconds, matching or slightly beating LTX’s own API speed. The test used half the machine and required minimal pipeline tuning.",
+    "title": "Trainium3 Generates 10‑Second Videos with LTX‑2.5 in 22 Seconds",
+    "why_it_matters": "It shows that new AI hardware can run video‑generation models quickly, helping developers build faster video tools and reduce costs."
   }
 ]
