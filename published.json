@@ -3031,5 +3031,17 @@
     "summary": "NVIDIA released Nemotron 3.5 Parse, a compact model that turns page images into structured data for retrieval‑augmented generation and agents. The release includes synthetic datasets for charts, tables, and multilingual OCR, a fine‑tuning recipe that improves accuracy, and a faster inference architecture with a DFlash2 speculator.",
     "title": "NVIDIA releases Nemotron 3.5 Parse, a model that turns page images into structured data",
     "why_it_matters": "Users who need to extract information from documents—such as finance analysts or legal teams—can automatically read tables and charts. The open datasets let developers train or adapt the model for their own document types."
+  },
+  {
+    "category": "Policy and safety",
+    "decision": "publish",
+    "published": "2026-11-25T16:47:14+00:00",
+    "reason": "Article reports on new military attacks on data centers and discusses implications for cloud resilience",
+    "source": "Ars Technica",
+    "source_url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+    "status": "reported",
+    "summary": "Amazon data centers were hit by military attacks for the first time in the Middle East, and Russia and Ukraine used drones to strike each other's data centers. A live discussion examined why cloud data centers are becoming military targets and how this affects cloud resilience.",
+    "title": "Military attacks on data centers raise new security concerns",
+    "why_it_matters": "Data centers host critical services; attacks could disrupt everyday life and national security."
   }
 ]
